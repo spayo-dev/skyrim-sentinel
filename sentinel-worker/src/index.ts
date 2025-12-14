@@ -1,18 +1,33 @@
-/**
- * Welcome to Cloudflare Workers! This is your first worker.
- *
- * - Run `npm run dev` in your terminal to start a development server
- * - Open a browser tab at http://localhost:8787/ to see your worker in action
- * - Run `npm run deploy` to publish your worker
- *
- * Bind resources to your worker in `wrangler.jsonc`. After adding bindings, a type definition for the
- * `Env` object can be regenerated with `npm run cf-typegen`.
- *
- * Learn more at https://developers.cloudflare.com/workers/
- */
+import { Hono } from 'hono'
+import { cors } from 'hono/cors'
 
-export default {
-	async fetch(request, env, ctx): Promise<Response> {
-		return new Response('Hello World!');
-	},
-} satisfies ExportedHandler<Env>;
+type Bindings = {
+  SENTINEL_HASHES: KVNamespace
+}
+
+const app = new Hono<{ Bindings: Bindings }>()
+
+// Middleware
+app.use('/*', cors())
+
+// Routes
+app.get('/', (c) => c.text('Skyrim Sentinel API is running.'))
+
+app.get('/health', (c) => c.json({ status: 'ok', timestamp: new Date().toISOString() }))
+
+app.post('/api/v1/scan', async (c) => {
+  try {
+    const body = await c.req.json()
+    // TODO: Implement KV lookup logic here
+    return c.json({ 
+      message: "Scan received", 
+      received: body,
+      note: "KV lookup not yet implemented" 
+    })
+  } catch (e) {
+    return c.json({ error: 'Invalid JSON' }, 400)
+  }
+})
+
+export default app
+

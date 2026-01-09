@@ -1,7 +1,7 @@
 import hashlib
 
 # Data to be hashed (must be bytes)
-data = b"This is a."
+data = b"This is a test string to test sha256 hashing."
 
 # Create a SHA256 hash object
 sha256_hash = hashlib.sha256()

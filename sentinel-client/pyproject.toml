@@ -1,13 +1,14 @@
 [project]
 name = "sentinel-client"
 version = "0.1.0"
-description = "Frontclient for Sentinel."
+description = "Skyrim Sentinel - SKSE Plugin Integrity Checker"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = [
-    "certifi==2025.11.12",
-    "charset-normalizer==3.4.4",
-    "idna==3.11",
-    "requests==2.32.5",
-    "urllib3==2.6.0",
-]
+dependencies = ["customtkinter>=5.2.0", "requests>=2.32.0"]
+
+[project.scripts]
+sentinel = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

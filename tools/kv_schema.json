@@ -1,0 +1,69 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://skyrim-sentinel.dev/schemas/kv-entry.json",
+	"title": "Sentinel KV Entry",
+	"description": "Schema for Cloudflare KV entries storing verified plugin hashes",
+
+	"definitions": {
+		"sha256Hash": {
+			"type": "string",
+			"pattern": "^[a-f0-9]{64}$",
+			"description": "SHA-256 hash in lowercase hexadecimal"
+		},
+		"status": {
+			"type": "string",
+			"enum": ["verified", "pending", "revoked", "suspicious"],
+			"description": "Verification status of the hash"
+		}
+	},
+
+	"type": "object",
+	"properties": {
+		"key": {
+			"type": "string",
+			"pattern": "^sha256:[a-f0-9]{64}$",
+			"description": "KV key in format 'sha256:<hash>'"
+		},
+		"value": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string",
+					"description": "Display name of the plugin"
+				},
+				"nexusId": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "Nexus Mods mod ID"
+				},
+				"filename": {
+					"type": "string",
+					"description": "Original filename of the DLL"
+				},
+				"version": {
+					"type": "string",
+					"description": "Plugin version string"
+				},
+				"status": {
+					"$ref": "#/definitions/status"
+				},
+				"verifiedAt": {
+					"type": "string",
+					"format": "date-time",
+					"description": "ISO 8601 timestamp of verification"
+				},
+				"author": {
+					"type": "string",
+					"description": "Plugin author name"
+				},
+				"notes": {
+					"type": "string",
+					"description": "Optional notes about this hash"
+				}
+			},
+			"required": ["name", "status"],
+			"additionalProperties": false
+		}
+	},
+	"required": ["key", "value"]
+}

@@ -1,0 +1,208 @@
+{
+	"$schema": "./golden_set_schema.json",
+	"version": "1.0.0",
+	"generated": "2026-01-11T00:00:00Z",
+	"description": "Curated manifest of verified SKSE plugins for Skyrim Sentinel",
+	"plugins": [
+		{
+			"name": "Address Library for SKSE Plugins",
+			"nexusId": 32444,
+			"author": "meh321",
+			"category": "core",
+			"description": "Compatibility layer enabling SKSE plugins to work across game versions",
+			"files": []
+		},
+		{
+			"name": "SSE Engine Fixes",
+			"nexusId": 17230,
+			"author": "aers",
+			"category": "core",
+			"description": "Fixes various engine bugs and issues in Skyrim SE",
+			"files": []
+		},
+		{
+			"name": "SkyUI",
+			"nexusId": 12604,
+			"author": "SkyUI Team",
+			"category": "ui",
+			"description": "Elegant, PC-friendly interface with MCM support",
+			"files": []
+		},
+		{
+			"name": "powerofthree's Tweaks",
+			"nexusId": 51073,
+			"author": "powerofthree",
+			"category": "fixes",
+			"description": "Collection of engine-level fixes and improvements",
+			"files": []
+		},
+		{
+			"name": "powerofthree's Papyrus Extender",
+			"nexusId": 22854,
+			"author": "powerofthree",
+			"category": "framework",
+			"description": "Extends Papyrus scripting with new functions",
+			"files": []
+		},
+		{
+			"name": "Bug Fixes SSE",
+			"nexusId": 33261,
+			"author": "meh321",
+			"category": "fixes",
+			"description": "Fixes for various game bugs not addressed by engine fixes",
+			"files": []
+		},
+		{
+			"name": "ConsoleUtilSSE",
+			"nexusId": 24858,
+			"author": "Ryan",
+			"category": "utility",
+			"description": "Extended console functionality for modders",
+			"files": []
+		},
+		{
+			"name": "More Informative Console",
+			"nexusId": 19250,
+			"author": "Linthar",
+			"category": "utility",
+			"description": "Enhanced console with detailed object information",
+			"files": []
+		},
+		{
+			"name": "MCM Helper",
+			"nexusId": 53000,
+			"author": "Parapets",
+			"category": "framework",
+			"description": "Simplifies Mod Configuration Menu creation",
+			"files": []
+		},
+		{
+			"name": "Scaleform Translation++",
+			"nexusId": 22603,
+			"author": "Ryan",
+			"category": "utility",
+			"description": "Translation framework for Scaleform-based mods",
+			"files": []
+		},
+		{
+			"name": "ENB Helper SE",
+			"nexusId": 23174,
+			"author": "aers",
+			"category": "graphics",
+			"description": "Enables advanced ENB features and weather detection",
+			"files": []
+		},
+		{
+			"name": "Dynamic Animation Replacer",
+			"nexusId": 33746,
+			"author": "Felisky",
+			"category": "animation",
+			"description": "Condition-based animation replacement framework",
+			"files": []
+		},
+		{
+			"name": "RaceMenu",
+			"nexusId": 19080,
+			"author": "Expired",
+			"category": "ui",
+			"description": "Extended character customization interface",
+			"files": []
+		},
+		{
+			"name": "Scrambled Bugs",
+			"nexusId": 43532,
+			"author": "KernalsEgg",
+			"category": "fixes",
+			"description": "Additional engine bug fixes",
+			"files": []
+		},
+		{
+			"name": "Actor Limit Fix",
+			"nexusId": 32349,
+			"author": "meh321",
+			"category": "fixes",
+			"description": "Prevents crashes from actor count limits",
+			"files": []
+		},
+		{
+			"name": "Better Jumping SE",
+			"nexusId": 18967,
+			"author": "meh321",
+			"category": "gameplay",
+			"description": "Enables jumping while sprinting and directional jumping",
+			"files": []
+		},
+		{
+			"name": "JContainers SE",
+			"nexusId": 16495,
+			"author": "silvericed",
+			"category": "framework",
+			"description": "JSON-based data storage for Papyrus scripts",
+			"files": []
+		},
+		{
+			"name": "Fuz Ro D-oh",
+			"nexusId": 15109,
+			"author": "shadeMe",
+			"category": "audio",
+			"description": "Enables lip-sync for unvoiced dialogue",
+			"files": []
+		},
+		{
+			"name": "Spell Perk Item Distributor",
+			"nexusId": 36869,
+			"author": "powerofthree",
+			"category": "framework",
+			"description": "Distributes spells, perks, and items to NPCs dynamically",
+			"files": []
+		},
+		{
+			"name": "Improved Camera SE",
+			"nexusId": 25903,
+			"author": "ArranzCNL",
+			"category": "camera",
+			"description": "True first-person body and improved camera control",
+			"files": []
+		},
+		{
+			"name": "moreHUD SE",
+			"nexusId": 12688,
+			"author": "Ahzaab",
+			"category": "ui",
+			"description": "Additional HUD elements for item and enemy info",
+			"files": []
+		},
+		{
+			"name": "TrueHUD",
+			"nexusId": 62775,
+			"author": "Ersh",
+			"category": "ui",
+			"description": "Modern health bars and target info framework",
+			"files": []
+		},
+		{
+			"name": "Keyword Item Distributor",
+			"nexusId": 55728,
+			"author": "powerofthree",
+			"category": "framework",
+			"description": "Distributes keywords to items dynamically",
+			"files": []
+		},
+		{
+			"name": "Base Object Swapper",
+			"nexusId": 60805,
+			"author": "powerofthree",
+			"category": "framework",
+			"description": "Swaps base objects dynamically at runtime",
+			"files": []
+		},
+		{
+			"name": "Backported Extended ESL Support",
+			"nexusId": 106441,
+			"author": "Nukem",
+			"category": "core",
+			"description": "Enables extended ESL record limits on older game versions",
+			"files": []
+		}
+	]
+}

@@ -1,0 +1,17 @@
+[project]
+name = "sentinel-tools"
+version = "0.1.0"
+description = "Skyrim Sentinel - Golden Set tools and hasher utility"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+sentinel-hash = "hasher:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

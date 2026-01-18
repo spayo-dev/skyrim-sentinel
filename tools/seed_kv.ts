@@ -42,14 +42,29 @@ function loadGoldenSet(): GoldenSet {
 }
 
 function convertToKVEntries(goldenSet: GoldenSet): KVEntry[] {
-	const entries: KVEntry[] = [];
+	const entriesMap = new Map<string, KVEntry>();
 
 	for (const plugin of goldenSet.plugins) {
 		for (const file of plugin.files) {
 			if (!file.sha256) continue;
 
-			entries.push({
-				key: `sha256:${file.sha256}`,
+			const key = `sha256:${file.sha256}`;
+
+			// Check for duplicate keys
+			if (entriesMap.has(key)) {
+				const existingEntry = entriesMap.get(key);
+				const existing = existingEntry ? JSON.parse(existingEntry.value) : null;
+				console.warn(
+					`[!] Duplicate hash found: ${file.sha256.slice(0, 16)}...`,
+				);
+				console.warn(`    Existing: ${existing?.name} (${existing?.filename})`);
+				console.warn(
+					`    New: ${plugin.name} (${file.filename}) - keeping this one`,
+				);
+			}
+
+			entriesMap.set(key, {
+				key,
 				value: JSON.stringify({
 					name: plugin.name,
 					nexusId: plugin.nexusId,
@@ -61,7 +76,7 @@ function convertToKVEntries(goldenSet: GoldenSet): KVEntry[] {
 		}
 	}
 
-	return entries;
+	return Array.from(entriesMap.values());
 }
 
 function seedKV(preview: boolean, namespaceId?: string): void {
@@ -90,7 +105,11 @@ function seedKV(preview: boolean, namespaceId?: string): void {
 
 	const previewFlag = preview ? "--preview" : "";
 
-	const cmd = `npx wrangler kv key bulk put ${bindingFlag} ${previewFlag} "${bulkPath}"`;
+	// Ensure forward slashes for Windows compatibility in shell command
+	const safeBulkPath = bulkPath.replace(/\\/g, "/");
+
+	const cmd =
+		`npx wrangler kv bulk put "${safeBulkPath}" ${bindingFlag} ${previewFlag}`.trim();
 
 	console.log(`[+] Running: ${cmd}`);
 

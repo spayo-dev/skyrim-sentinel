@@ -1,210 +1,410 @@
 [
   {
     "key": "sha256:44f679d547244fb60bd10f9e705ba1d0ee421e4951ebc211070fe5240b54f14a",
-    "value": "{\"name\": \"SSE Engine Fixes\", \"nexusId\": 17230, \"filename\": \"EngineFixes.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Engine Fixes\",\"nexusId\":0,\"filename\":\"EngineFixes.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:1aff9914d9685c16f7dce11882186ca5dd15402c37159bc45ce1584ab3475e70",
-    "value": "{\"name\": \"powerofthree's Tweaks\", \"nexusId\": 51073, \"filename\": \"po3_Tweaks.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"powerofthree's Tweaks\",\"nexusId\":51073,\"filename\":\"po3_Tweaks.dll\",\"status\":\"verified\",\"author\":\"powerofthree\"}"
   },
   {
     "key": "sha256:5c39fa85d96426be57cd618dc437aed4ea59a19b4f357caae273021ac004d20a",
-    "value": "{\"name\": \"powerofthree's Papyrus Extender\", \"nexusId\": 22854, \"filename\": \"po3_PapyrusExtender.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"powerofthree's Papyrus Extender\",\"nexusId\":22854,\"filename\":\"po3_PapyrusExtender.dll\",\"status\":\"verified\",\"author\":\"powerofthree\"}"
   },
   {
     "key": "sha256:24c1c73500c34950ec89240aa980d774308c914a632044c08d33e261cee7fb79",
-    "value": "{\"name\": \"Bug Fixes SSE\", \"nexusId\": 33261, \"filename\": \"BugFixesSSE.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Bug Fixes SSE\",\"nexusId\":33261,\"filename\":\"BugFixesSSE.dll\",\"status\":\"verified\",\"author\":\"meh321\"}"
   },
   {
     "key": "sha256:ca94ffae9e3860c73c70b1cfc7dfc4cf05ee5d404fdd7b82ec5eb1fdd65761ee",
-    "value": "{\"name\": \"ConsoleUtilSSE\", \"nexusId\": 24858, \"filename\": \"ConsoleUtilSSE.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"ConsoleUtilSSE NG\",\"nexusId\":76649,\"filename\":\"ConsoleUtilSSE.dll\",\"status\":\"verified\",\"author\":\"shad0wshayd3\"}"
   },
   {
     "key": "sha256:b655c706cfdb07973ec398c73bd35d85aa276ffb903f87b3674269e504db16ba",
-    "value": "{\"name\": \"More Informative Console\", \"nexusId\": 19250, \"filename\": \"MoreInformativeConsole.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"More Informative Console\",\"nexusId\":19250,\"filename\":\"MoreInformativeConsole.dll\",\"status\":\"verified\",\"author\":\"Linthar\"}"
   },
   {
     "key": "sha256:059a72858477a109dba44852fe19188ba4aca6b49b1b71863669dc00c4b7e037",
-    "value": "{\"name\": \"MCM Helper\", \"nexusId\": 53000, \"filename\": \"MCMHelper.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"MCM Helper\",\"nexusId\":53000,\"filename\":\"MCMHelper.dll\",\"status\":\"verified\",\"author\":\"Parapets\"}"
   },
   {
     "key": "sha256:ea1c97674d5943365cb413ea892a923910bb0f7f62dfd947fc137548d3e8cc35",
-    "value": "{\"name\": \"Scaleform Translation++\", \"nexusId\": 22603, \"filename\": \"ScaleformTranslationPP.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Scaleform Translation Plus Plus NG\",\"nexusId\":0,\"filename\":\"ScaleformTranslationPP.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:cfb1650eb592b488c8d8e89c98c5ef1bcea785e466ae4f21374990c6785ca62e",
-    "value": "{\"name\": \"ENB Helper SE\", \"nexusId\": 23174, \"filename\": \"ENBHelperSE.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"ENB Helper SE\",\"nexusId\":23174,\"filename\":\"ENBHelperSE.dll\",\"status\":\"verified\",\"author\":\"aers\"}"
   },
   {
     "key": "sha256:a81e1f8a5fa86f9fda35602dae38e74fcd5c2f57338e702059ce1584991a089b",
-    "value": "{\"name\": \"RaceMenu\", \"nexusId\": 19080, \"filename\": \"skee64.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"RaceMenu\",\"nexusId\":19080,\"filename\":\"skee64.dll\",\"status\":\"verified\",\"author\":\"Expired\"}"
   },
   {
     "key": "sha256:dd8b458e623fe9362a0e0acaa32223dad5a25a798019305dc8ffa987f9d6b969",
-    "value": "{\"name\": \"Scrambled Bugs\", \"nexusId\": 43532, \"filename\": \"ScrambledBugs.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Scrambled Bugs\",\"nexusId\":43532,\"filename\":\"ScrambledBugs.dll\",\"status\":\"verified\",\"author\":\"KernalsEgg\"}"
   },
   {
     "key": "sha256:b28de705613aceefd16d44bfc4fa21288b644be5a7decaf9c5603690b1d89a23",
-    "value": "{\"name\": \"Actor Limit Fix\", \"nexusId\": 32349, \"filename\": \"ActorLimitFix.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Actor Limit Fix\",\"nexusId\":32349,\"filename\":\"ActorLimitFix.dll\",\"status\":\"verified\",\"author\":\"meh321\"}"
   },
   {
     "key": "sha256:3fcd32150c68f1691fe225a76f44911d35cfd0211257190484d1be790de23dac",
-    "value": "{\"name\": \"JContainers SE\", \"nexusId\": 16495, \"filename\": \"JContainers64.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"JContainers SE\",\"nexusId\":16495,\"filename\":\"JContainers64.dll\",\"status\":\"verified\",\"author\":\"silvericed\"}"
   },
   {
     "key": "sha256:3854e94f4b8934469b646af0c2df04cb813a1ac88dd0b58fcd361b20bb0bf532",
-    "value": "{\"name\": \"Spell Perk Item Distributor\", \"nexusId\": 36869, \"filename\": \"po3_SpellPerkItemDistributor.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Spell Perk Item Distributor (SPID)\",\"nexusId\":0,\"filename\":\"po3_SpellPerkItemDistributor.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:16628f90355fbeb60ab174a09dcc314afc5546cb9cbecce08a239d01b7ad24c9",
-    "value": "{\"name\": \"Improved Camera SE\", \"nexusId\": 25903, \"filename\": \"ImprovedCameraSE.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Improved Camera SE\",\"nexusId\":25903,\"filename\":\"ImprovedCameraSE.dll\",\"status\":\"verified\",\"author\":\"ArranzCNL\"}"
   },
   {
     "key": "sha256:a7eec5e7e6997e04b158fa3add1e326682ee9720da98c5758c4e626bdb705f01",
-    "value": "{\"name\": \"TrueHUD\", \"nexusId\": 62775, \"filename\": \"TrueHUD.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"TrueHUD - HUD Additions\",\"nexusId\":0,\"filename\":\"TrueHUD.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:e7526b84193e04cab0b73735698311a36c0851c3726c7ef6cf57e2c6aa2065ce",
-    "value": "{\"name\": \"Keyword Item Distributor\", \"nexusId\": 55728, \"filename\": \"po3_KeywordItemDistributor.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Keyword Item Distributor\",\"nexusId\":55728,\"filename\":\"po3_KeywordItemDistributor.dll\",\"status\":\"verified\",\"author\":\"powerofthree\"}"
   },
   {
     "key": "sha256:998218f12588641858af160c42e12455d9064a1b5adfa924a8d8245a37991029",
-    "value": "{\"name\": \"Base Object Swapper\", \"nexusId\": 60805, \"filename\": \"po3_BaseObjectSwapper.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Base Object Swapper\",\"nexusId\":60805,\"filename\":\"po3_BaseObjectSwapper.dll\",\"status\":\"verified\",\"author\":\"powerofthree\"}"
   },
   {
     "key": "sha256:a908eca3a068c3ea67edc3495e8baa80038c3db345b7e1a051c80b9ad093a1b7",
-    "value": "{\"name\": \"Open Animation Replacer\", \"nexusId\": 92109, \"filename\": \"OpenAnimationReplacer.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Open Animation Replacer\",\"nexusId\":92109,\"filename\":\"OpenAnimationReplacer.dll\",\"status\":\"verified\",\"author\":\"Felisky\"}"
   },
   {
     "key": "sha256:359f9389e1093062b49b3595277c2289052bc5900a9ecd109c715e50f0e8d06f",
-    "value": "{\"name\": \"Animation Motion Revolution\", \"nexusId\": 50258, \"filename\": \"AnimationMotionRevolution.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Animation Motion Revolution\",\"nexusId\":50258,\"filename\":\"AnimationMotionRevolution.dll\",\"status\":\"verified\",\"author\":\"alexsylex\"}"
+  },
+  {
+    "key": "sha256:f836074720cca5594858dd83f81a37929290644270fce34d3f3ab5fa1367259f",
+    "value": "{\"name\":\"True Directional Movement\",\"nexusId\":51614,\"filename\":\"TrueDirectionalMovement.dll\",\"status\":\"verified\",\"author\":\"Ersh\"}"
+  },
+  {
+    "key": "sha256:b6f3203b5e969c284c55c9f3daa0eab69ad5f2d411514a86f2d257a2662b6ccf",
+    "value": "{\"name\":\"Valhalla Combat\",\"nexusId\":64741,\"filename\":\"valhallaCombat.dll\",\"status\":\"verified\",\"author\":\"Jeir\"}"
   },
   {
     "key": "sha256:ceb5b009191bb795f2e1d7d0c49deef1436cd87b5082ee9f4ec6a98b22a0a582",
-    "value": "{\"name\": \"FSMP - Faster HDT-SMP\", \"nexusId\": 57339, \"filename\": \"hdtSMP64.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Faster HDT-SMP\",\"nexusId\":0,\"filename\":\"hdtSMP64.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:e1976ae08f3158eb9ecdf0df803844a5c4518705a9c7441b87bee0055103b2f1",
-    "value": "{\"name\": \"CBPC - Physics with Collisions\", \"nexusId\": 21224, \"filename\": \"cbp.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"CBPC - Physics with Collisions\",\"nexusId\":21224,\"filename\":\"cbp.dll\",\"status\":\"verified\",\"author\":\"vsv\"}"
   },
   {
     "key": "sha256:ae83f3a73359e45de98a39596ba9d96f416ae15f7cd6925dc347d484b9faf5bb",
-    "value": "{\"name\": \"SSE Display Tweaks\", \"nexusId\": 34705, \"filename\": \"SSEDisplayTweaks.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Display Tweaks\",\"nexusId\":0,\"filename\":\"SSEDisplayTweaks.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:b556270889208a00ae20e0a68482178bafc56784fbfe67b9e9e52f74e056cf31",
-    "value": "{\"name\": \"Crash Logger SSE AE VR\", \"nexusId\": 59818, \"filename\": \"CrashLogger.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Crash Logger SSE AE VR - PDB support\",\"nexusId\":0,\"filename\":\"CrashLogger.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:2fb155b8508e085616c5f72cb8fd2368275557dc56988300b92e540930d1f444",
+    "value": "{\"name\":\"PapyrusUtil SE\",\"nexusId\":13048,\"filename\":\"PapyrusUtil.dll\",\"status\":\"verified\",\"author\":\"exiledviper\"}"
+  },
+  {
+    "key": "sha256:8e00fa14b51980fb752c22f1c65d0aad3b3ba3f333e8f6f1a87d040cd85d53ae",
+    "value": "{\"name\":\"SmoothCam\",\"nexusId\":41252,\"filename\":\"SmoothCam.dll\",\"status\":\"verified\",\"author\":\"mwilsnd\"}"
   },
   {
     "key": "sha256:f87781f0c69822fed533005819db6ab47d75f4f4bb08dabbe5707b96a8928ab4",
-    "value": "{\"name\": \"Community Shaders\", \"nexusId\": 86492, \"filename\": \"CommunityShaders.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Community Shaders\",\"nexusId\":86492,\"filename\":\"CommunityShaders.dll\",\"status\":\"verified\",\"author\":\"doodlum\"}"
+  },
+  {
+    "key": "sha256:d76b061eba384cb376daf14737d13a8d906037e20665d26ce38523088797798a",
+    "value": "{\"name\":\"Community Shaders\",\"nexusId\":86492,\"filename\":\"renderdoc.dll\",\"status\":\"verified\",\"author\":\"doodlum\"}"
   },
   {
     "key": "sha256:79fbf07653934dfe2e6bcb13c01d1563fe4c698f9854f1a0634b505bc11be733",
-    "value": "{\"name\": \"QuickLoot IE\", \"nexusId\": 120075, \"filename\": \"QuickLootIE.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"QuickLoot IE - A QuickLoot EE Fork\",\"nexusId\":0,\"filename\":\"QuickLootIE.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:e12da86be6c3412e1ad91ef7c12d51067f19e023a8d4ef8ec703ee43acedc38c",
-    "value": "{\"name\": \"Immersive Equipment Displays\", \"nexusId\": 62001, \"filename\": \"ImmersiveEquipmentDisplays.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Immersive Equipment Displays\",\"nexusId\":62001,\"filename\":\"ImmersiveEquipmentDisplays.dll\",\"status\":\"verified\",\"author\":\"SlavicPotato\"}"
   },
   {
     "key": "sha256:b4571cbd90c2d66ed0708353e83972282022379d6239bdbd4c40254bbb22e80d",
-    "value": "{\"name\": \"Infinity UI\", \"nexusId\": 74483, \"filename\": \"InfinityUI.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Infinity UI\",\"nexusId\":74483,\"filename\":\"InfinityUI.dll\",\"status\":\"verified\",\"author\":\"Jeir\"}"
   },
   {
     "key": "sha256:cc8664bbfae35a69eb729f2e95c95c758d846ca60e18f0ae254f8cb857fbe75c",
-    "value": "{\"name\": \"SkyPatcher\", \"nexusId\": 106659, \"filename\": \"SkyPatcher.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"SkyPatcher\",\"nexusId\":106659,\"filename\":\"SkyPatcher.dll\",\"status\":\"verified\",\"author\":\"Jeir\"}"
   },
   {
     "key": "sha256:4449723b381fa111fa8f21bfde4e899dce53001308f0cc1920c55033bf0f51ba",
-    "value": "{\"name\": \"Compass Navigation Overhaul\", \"nexusId\": 74484, \"filename\": \"CompassNavigationOverhaul.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Compass Navigation Overhaul\",\"nexusId\":74484,\"filename\":\"CompassNavigationOverhaul.dll\",\"status\":\"verified\",\"author\":\"Jeir\"}"
   },
   {
     "key": "sha256:306914715c556fb650e84e9f97bc410fb3545c36d3146f7009ea779740323217",
-    "value": "{\"name\": \"PrivateProfileRedirector SE\", \"nexusId\": 18860, \"filename\": \"PrivateProfileRedirector.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"PrivateProfileRedirector SE - Faster game start (INI file cacher)\",\"nexusId\":0,\"filename\":\"PrivateProfileRedirector.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:99adef364e4c107711e6f0925bf4b1547a377168a832d12b28cd0e3d7283f86f",
-    "value": "{\"name\": \"Simple Dual Sheath\", \"nexusId\": 50049, \"filename\": \"SimpleDualSheath.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Simple Dual Sheath\",\"nexusId\":50049,\"filename\":\"SimpleDualSheath.dll\",\"status\":\"verified\",\"author\":\"ershin\"}"
   },
   {
     "key": "sha256:447534bcb80d3136ef5046f6cbd80a8be1aca5cb9c265bdff7e40608c7bd973f",
-    "value": "{\"name\": \"Dismembering Framework\", \"nexusId\": 126203, \"filename\": \"DismemberingFramework.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Dismembering Framework\",\"nexusId\":126203,\"filename\":\"DismemberingFramework.dll\",\"status\":\"verified\",\"author\":\"Jeir\"}"
   },
   {
     "key": "sha256:82a3277c6c03e6b4d86c367637ba7fde9d8c9ec46cdf9ba1b0f59277b0c9928e",
-    "value": "{\"name\": \"FormList Manipulator\", \"nexusId\": 74037, \"filename\": \"FormListManipulator.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"FormList Manipulator - FLM\",\"nexusId\":0,\"filename\":\"FormListManipulator.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:e7bd40d5b070c08b120caf364124e0551fd8f983f135c4c47dcdd0508b29f41e",
-    "value": "{\"name\": \"Sound Record Distributor\", \"nexusId\": 77815, \"filename\": \"SoundRecordDistributor.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Sound Record Distributor\",\"nexusId\":77815,\"filename\":\"SoundRecordDistributor.dll\",\"status\":\"verified\",\"author\":\"powerofthree\"}"
   },
   {
     "key": "sha256:f4346501d4a793635c05d970cc87e91253a5f5ce79ddd197ee24480423b934ca",
-    "value": "{\"name\": \"Inventory Interface Information Injector\", \"nexusId\": 85702, \"filename\": \"InventoryInjector.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Inventory Interface Information Injector - I4\",\"nexusId\":0,\"filename\":\"InventoryInjector.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:01cf1acefcda9d6d8838b1a87bf6e628ab7a28a008ad7fa245ff227b683770b2",
-    "value": "{\"name\": \"Simple Beheading NG\", \"nexusId\": 103198, \"filename\": \"SimpleBeheading.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Simple Beheading - NG\",\"nexusId\":0,\"filename\":\"SimpleBeheading.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:596fcef3ecbed1cc9b7433306ecda503bd45cff033a0da00dcd572e9c2ccbb8d",
-    "value": "{\"name\": \"Papyrus Tweaks NG\", \"nexusId\": 77779, \"filename\": \"PapyrusTweaks.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Papyrus Tweaks NG\",\"nexusId\":77779,\"filename\":\"PapyrusTweaks.dll\",\"status\":\"verified\",\"author\":\"fireundubh\"}"
   },
   {
     "key": "sha256:448f3b20097d7c38bcdc0939b98a1ec187efae99ac516bbeab349c59d32e4f85",
-    "value": "{\"name\": \"Paired Animation Improvements\", \"nexusId\": 99621, \"filename\": \"PairedAnimationImprovements.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Paired Animation Improvements\",\"nexusId\":99621,\"filename\":\"PairedAnimationImprovements.dll\",\"status\":\"verified\",\"author\":\"ershin\"}"
   },
   {
     "key": "sha256:55128b96eb4078cbf8e7c26ab4561eb65c7001d0127df46ceab30cc4feb0d58e",
-    "value": "{\"name\": \"moreHUD Inventory Edition\", \"nexusId\": 18619, \"filename\": \"AHZmoreHUDInventory.dll\", \"status\": \"verified\"}"
-  },
-  {
-    "key": "sha256:ca94ffae9e3860c73c70b1cfc7dfc4cf05ee5d404fdd7b82ec5eb1fdd65761ee",
-    "value": "{\"name\": \"ConsoleUtilSSE NG\", \"nexusId\": 76649, \"filename\": \"ConsoleUtilSSE.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"moreHUD Inventory Edition\",\"nexusId\":18619,\"filename\":\"AHZmoreHUDInventory.dll\",\"status\":\"verified\",\"author\":\"Ahzaab\"}"
   },
   {
     "key": "sha256:ce24158a1aac15e7984d4280cff5a71b9ff75290df8803d7c03c5042454d627c",
-    "value": "{\"name\": \"Better Third Person Selection\", \"nexusId\": 64339, \"filename\": \"BetterThirdPersonSelection.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Better Third Person Selection - BTPS\",\"nexusId\":0,\"filename\":\"BetterThirdPersonSelection.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:4543f48828ba0d278a0178f7eb7af410ca7831a117221c0115e3db37a3e10f42",
-    "value": "{\"name\": \"Animation Queue Fix\", \"nexusId\": 82395, \"filename\": \"AnimationQueueFix.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Animation Queue Fix\",\"nexusId\":82395,\"filename\":\"AnimationQueueFix.dll\",\"status\":\"verified\",\"author\":\"ershin\"}"
   },
   {
     "key": "sha256:f63324b928bf633624f34f1b4a5907c7fa84c7971eebcab471104ad2dbcc1baf",
-    "value": "{\"name\": \"Recursion Monitor\", \"nexusId\": 76867, \"filename\": \"RecursionFPSFix.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Recursion Monitor\",\"nexusId\":76867,\"filename\":\"RecursionFPSFix.dll\",\"status\":\"verified\",\"author\":\"Umgak\"}"
   },
   {
     "key": "sha256:c1efcaa80cf00a42a0f9dabf82378c8512c4472f1fbfe0cae73fc384363cb27a",
-    "value": "{\"name\": \"ConsolePlusPlus\", \"nexusId\": 77945, \"filename\": \"po3_ConsolePlusPlus.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"ConsolePlusPlus\",\"nexusId\":77945,\"filename\":\"po3_ConsolePlusPlus.dll\",\"status\":\"verified\",\"author\":\"powerofthree\"}"
   },
   {
     "key": "sha256:af356bf1096d2a6b3e17bfef143ee15d8eda738f2539c33f46a57fd8625ac18b",
-    "value": "{\"name\": \"MFG Fix NG\", \"nexusId\": 93365, \"filename\": \"mfgfix.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Mfg Fix NG\",\"nexusId\":0,\"filename\":\"mfgfix.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:bdd42a43bd33f8446214b009f2b0cb216bdb510d159fc9967663d9916512f9c2",
-    "value": "{\"name\": \"Contextual Crosshair\", \"nexusId\": 63980, \"filename\": \"ContextualCrosshair.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Contextual Crosshair\",\"nexusId\":63980,\"filename\":\"ContextualCrosshair.dll\",\"status\":\"verified\",\"author\":\"Jeir\"}"
   },
   {
     "key": "sha256:5959091aaba85bdcb75949034e31d638f42035e9d9d657f45ac90219449edda4",
-    "value": "{\"name\": \"Grass Sampler Fix\", \"nexusId\": 106080, \"filename\": \"GrassSamplerFix.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Grass Sampler Fix\",\"nexusId\":106080,\"filename\":\"GrassSamplerFix.dll\",\"status\":\"verified\",\"author\":\"aers\"}"
   },
   {
     "key": "sha256:0892545eefb14f9da822daaa1ee3d78ca62de8a4ffbf197076c6899ea18a6784",
-    "value": "{\"name\": \"HeadpartWhitelist\", \"nexusId\": 111275, \"filename\": \"po3_HeadpartWhitelist.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"HeadpartWhitelist\",\"nexusId\":111275,\"filename\":\"po3_HeadpartWhitelist.dll\",\"status\":\"verified\",\"author\":\"powerofthree\"}"
   },
   {
     "key": "sha256:ff7458faeaf102037c199e3fe8e34d33429e88f76d32983682d85608d4ef8d9d",
-    "value": "{\"name\": \"PhotoMode\", \"nexusId\": 91701, \"filename\": \"po3_PhotoMode.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"PhotoMode\",\"nexusId\":91701,\"filename\":\"po3_PhotoMode.dll\",\"status\":\"verified\",\"author\":\"powerofthree\"}"
   },
   {
     "key": "sha256:56884c64b070261a3986906d089dad6e221bf70e62edd232d22abcb1a2f2de77",
-    "value": "{\"name\": \"Modex\", \"nexusId\": 106042, \"filename\": \"Modex.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"Modex - A Mod Explorer Menu (AddItemMenu)\",\"nexusId\":0,\"filename\":\"Modex.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:dbfe63dd220aa01132a8cee392ddf975de0f5e1b12fb78a9aaf5c5282df5a385",
-    "value": "{\"name\": \"ENB Input Disabler\", \"nexusId\": 62796, \"filename\": \"ENBInputDisabler.dll\", \"status\": \"verified\"}"
+    "value": "{\"name\":\"ENB Input Disabler\",\"nexusId\":62796,\"filename\":\"ENBInputDisabler.dll\",\"status\":\"verified\",\"author\":\"Jeir\"}"
+  },
+  {
+    "key": "sha256:6488d9640232932ce85cf58616dcc1e86aa6392feaf30bc012c1c32229f8427c",
+    "value": "{\"name\":\"Widescreen Scale Removed for 1-6-1130 and higher\",\"nexusId\":0,\"filename\":\"WidescreenScaleRemoved.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:1429c91128d59a20120dd09b189a7e7ddfecf7e7b700d825bce4c4c6e9c0d451",
+    "value": "{\"name\":\"Upscaling - Community Shaders\",\"nexusId\":0,\"filename\":\"amd_fidelityfx_framegeneration_dx12.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:11633127b050ec02e147987713900f403056147df529851b1388f987897d5b0e",
+    "value": "{\"name\":\"Upscaling - Community Shaders\",\"nexusId\":0,\"filename\":\"amd_fidelityfx_loader_dx12.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:e88a27b9629c1cd3a51bf25c605def1798c44d038267c520830e23d5959c985b",
+    "value": "{\"name\":\"Upscaling - Community Shaders\",\"nexusId\":0,\"filename\":\"nvngx_dlss.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:b015702b768e4fa94ab16a4c745902513d60a438f5e0350ddd6899d542365483",
+    "value": "{\"name\":\"Upscaling - Community Shaders\",\"nexusId\":0,\"filename\":\"sl.common.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:4465fec835b776aeb138ba774bb09631d3521aeef58596cf4db81d83e3d190d3",
+    "value": "{\"name\":\"Upscaling - Community Shaders\",\"nexusId\":0,\"filename\":\"sl.dlss.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:48f79bdd8eb35d6de0e54a70799a3340913990ef5e0e3a837a4f724008d5685b",
+    "value": "{\"name\":\"Upscaling - Community Shaders\",\"nexusId\":0,\"filename\":\"sl.interposer.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:043dad09393653893e0ebde759e594052bc9fcd19db7e67fc9b026d434cda430",
+    "value": "{\"name\":\"Upscaling - Community Shaders\",\"nexusId\":0,\"filename\":\"sl.nis.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:896f9273037c7ffc4cb0febacad3e44109949b03f5de88b70287ffb3092b6eb5",
+    "value": "{\"name\":\"Tween Menu Overhaul\",\"nexusId\":0,\"filename\":\"TweenMenuOverhaul.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:2bc4091e7b2ad9e1b328f0f9abe51f10bd14063cee6c8de458e05077dcce504e",
+    "value": "{\"name\":\"The New Gentleman\",\"nexusId\":0,\"filename\":\"TheNewGentleman.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:d1c1af4fce5d258aee54da7a2eea2d5aa039f3e8f54d27a2e6f8d1c1b2ee4689",
+    "value": "{\"name\":\"Target Focus\",\"nexusId\":0,\"filename\":\"TargetFocus.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:f879aa1028d932e3e2d55ba0405858d29abfc24481b4b13fde3749134fd4e252",
+    "value": "{\"name\":\"SMP-NPC crash fix\",\"nexusId\":0,\"filename\":\"SMP-NPC crash fix.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:6db050e3e73194545780292441a36dc17789f8369547dbdef7beb6da5d3299c2",
+    "value": "{\"name\":\"Skyrim Character Sheet\",\"nexusId\":0,\"filename\":\"SkyrimCharacterSheet.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:c9a2c8a80df6bf2372c5f49468bb2e5ab67786157265b6f29ece9f4eac075d54",
+    "value": "{\"name\":\"SKSE 2.2.6\",\"nexusId\":0,\"filename\":\"skse64_1_6_1170.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:30794b935a0aece3db72edb79d179c51c80c71e0a11e379b6a9179a7e42c2d12",
+    "value": "{\"name\":\"Show Player In Menus\",\"nexusId\":0,\"filename\":\"ShowPlayerInMenus.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:a24ce1eb8dea9dc7f4e73a4dbf01dcf96aa4da2befa7ba44b8bdf65cb34ce48a",
+    "value": "{\"name\":\"Save Unbaker\",\"nexusId\":0,\"filename\":\"po3_SaveUnbaker.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:fd00136cb206fbfca3edc2748b76213bbc46838d4814299e70838ac26bfff58a",
+    "value": "{\"name\":\"Save & Load Accelerator for SKSE Cosaves (S.L.A.C.K.)\",\"nexusId\":0,\"filename\":\"Save&LoadAcceleratorForSKSECosaves.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:8da57456a0e723b42dcce7e26f8da154f676f5ac42f4dc913c5cce463f9cc69d",
+    "value": "{\"name\":\"Sanguine Symphony\",\"nexusId\":0,\"filename\":\"SanguineSymphony.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:0134f3276e17c184fa154913546d02ddb940c526cfb3aa999422d4ec919b8b1f",
+    "value": "{\"name\":\"RemoveAllItems Freeze Fix\",\"nexusId\":0,\"filename\":\"RemoveAllItemsFix.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:7ff0430e0115ba1439556fc0511aa56599156df91f3dd531aadfaf06cbf519a1",
+    "value": "{\"name\":\"Quest Journal Overhaul\",\"nexusId\":0,\"filename\":\"QuestJournalOverhaul.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:b4ab4a5a3673324b222b59beed1378abe7982f85af5248d2a7225bc46d0c4f32",
+    "value": "{\"name\":\"Precision\",\"nexusId\":0,\"filename\":\"Precision.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:e586b8e1c693e26ab057be5cfc0adffc215207f6253df756035b3e0a85a2b956",
+    "value": "{\"name\":\"OxygenMeter2\",\"nexusId\":0,\"filename\":\"oxygenMeter2.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:8669298ea4e640e2ac7867ecdf29be59b7e2f56014831b11b99a14bdb5b3b698",
+    "value": "{\"name\":\"Open Animation Replacer - IED Conditions\",\"nexusId\":0,\"filename\":\"OpenAnimationReplacer-IEDConditionExtensions.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:1deb4c747d655c5a5410811bd36a2be5033e57c5e271b2aabd2613b2c94109df",
+    "value": "{\"name\":\"NPC AI Process Position Fix - NG\",\"nexusId\":0,\"filename\":\"MaxsuAIProcessFix.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:18337a8938d5255f030d296a507ef30ddf81101c2ddddcbf12aa5bbaa92e06fe",
+    "value": "{\"name\":\"Next-Gen Decapitations\",\"nexusId\":0,\"filename\":\"NextGenDecapitations.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:d0398459beaa2186cf39f5512c1de705c0f6c53709610f8daffd5deeb7b79ef3",
+    "value": "{\"name\":\"Native EditorID Fix\",\"nexusId\":0,\"filename\":\"NativeEditorIDFix.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:62e025e1f33b3e98acebe865fdeef2970d3f48c8a038504f941e621443a1ebbe",
+    "value": "{\"name\":\"Mfg Fix\",\"nexusId\":0,\"filename\":\"mfgfix.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:e50068ccf7c38ea91c6c1f43cfb64086ae0ef36bbb19320f9a2d81eedae1b940",
+    "value": "{\"name\":\"LeveledList Crash Fix\",\"nexusId\":0,\"filename\":\"LeveledListCrashPrevention.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:cf366987da6237559eb6e113ea717ec21762c9eec3a87d9dc4fa9ddfe7789c26",
+    "value": "{\"name\":\"Engine Fixes\",\"nexusId\":0,\"filename\":\"d3dx9_42.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:cb30670cafe7e277ad2d28fb9a7aafc06bad50ce512cd7991a07ee6aced0e598",
+    "value": "{\"name\":\"ENB Frame Generation\",\"nexusId\":0,\"filename\":\"ENBFrameGeneration.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:5672ee4202aa5417e23369d548a140652367494299a7678b42aa5b3395f76ad7",
+    "value": "{\"name\":\"ENB Frame Generation\",\"nexusId\":0,\"filename\":\"amd_fidelityfx_dx12.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:f789adbb281ccb89513969b3eee41e7e9bff80910314dfd39dfbe35841042fb1",
+    "value": "{\"name\":\"ENB Core\",\"nexusId\":0,\"filename\":\"d3d11.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:ff2fffaf99916720914753d10e1db6e364011bb23da143178250cbea7dbfb945",
+    "value": "{\"name\":\"ENB Core\",\"nexusId\":0,\"filename\":\"d3dcompiler_46e.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:e9b3a452bc623c39b025e06e248276a9b8bcd87eb7eee7de55e8d5c5bf822522",
+    "value": "{\"name\":\"DXVK\",\"nexusId\":0,\"filename\":\"d3d11.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:5e291e1b41a2a5ec0727a629fab7b43b8ebc9a269f58439ea8eed937925084f9",
+    "value": "{\"name\":\"DXVK\",\"nexusId\":0,\"filename\":\"dxgi.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:a4803da251251268c42c7986037635daf502fa697ebaeccd0adeb12a41550959",
+    "value": "{\"name\":\"Detection Meter - AE Support\",\"nexusId\":0,\"filename\":\"MaxsuDetectionMeter.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:238e7c351c34958a8ed9aa38408c95fd0ba248a44c58c718b4dddb7faadaf93b",
+    "value": "{\"name\":\"Detection Meter\",\"nexusId\":0,\"filename\":\"MaxsuDetectionMeter.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:b52db46f4c4dc7705a802956edad33b60aeef5f184191dfd2e20c361608ffe86",
+    "value": "{\"name\":\"Crash Logger SSE AE VR - PDB support\",\"nexusId\":0,\"filename\":\"msdia140.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:47052dc9e4d82222725cdec6f9b45e5140b100ee1397882a0050e193aaee9c8a",
+    "value": "{\"name\":\"Core Impact Framework (CIF)\",\"nexusId\":0,\"filename\":\"CoreImpactFramework.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:6f4b55e335bf1a17b297d71ae8ed1be5b1aec141c8879f00824c83681c818ebb",
+    "value": "{\"name\":\"Constructible Object Custom Keyword System - COCKS\",\"nexusId\":0,\"filename\":\"CraftingCategories.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:7fbbb8178978ca48cd26c19e54ddc315f4319eee4c748347f5cbb452a1b6454b",
+    "value": "{\"name\":\"CoMAP\",\"nexusId\":0,\"filename\":\"MapMarkerFramework.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:d3b3503250bffce66c9a3d9c60782b4842721b386e3c50b6b93b6634b680c5f3",
+    "value": "{\"name\":\"Camera Persistence Fixes\",\"nexusId\":0,\"filename\":\"po3_CameraPersistenceFixes.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:69826d780af456ed2ebcfa4d330d25af20f9ba3992ad9663db2c89ee67358d2b",
+    "value": "{\"name\":\"Camera Noise\",\"nexusId\":0,\"filename\":\"CameraShake.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:19273eefb67b5428fa0dffb7cbe05eba9f3d3692717582088640a60b2882358e",
+    "value": "{\"name\":\"Animation Motion Fix\",\"nexusId\":0,\"filename\":\"AnimationMotionFix.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:c061133654df535d86852621bddcd9346d4831fadbc8a4d1ccae40079f3bb896",
+    "value": "{\"name\":\"Animation Limit Crash Fix SSE\",\"nexusId\":0,\"filename\":\"SrtCrashFix64.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:358c66703ec85d490a6f60e5fe413c782ca5463fcc30bd809a2e21264e6dfe67",
+    "value": "{\"name\":\"Animated Interactions\",\"nexusId\":0,\"filename\":\"AnimatedInteractions.dll\",\"status\":\"verified\"}"
   }
 ]

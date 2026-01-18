@@ -1,0 +1,21 @@
+# Normalize line endings to LF on checkout
+* text=auto eol=lf
+
+# Python files
+*.py text eol=lf
+
+# JavaScript/TypeScript
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+
+# Config files
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+
+# Keep these as-is
+*.png binary
+*.jpg binary
+*.ico binary

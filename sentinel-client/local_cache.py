@@ -9,7 +9,6 @@ import json
 import sqlite3
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Optional
 
 
 @dataclass
@@ -18,7 +17,7 @@ class CachedPlugin:
 
     name: str
     nexus_id: int
-    filename: Optional[str] = None
+    filename: str | None = None
     status: str = "verified"
 
 
@@ -63,7 +62,7 @@ class LocalCache:
             """)
             conn.commit()
 
-    def get(self, sha256: str) -> Optional[CachedPlugin]:
+    def get(self, sha256: str) -> CachedPlugin | None:
         """
         Look up a hash in the local cache.
 
@@ -91,7 +90,7 @@ class LocalCache:
                 status=row["status"],
             )
 
-    def get_batch(self, hashes: list[str]) -> dict[str, Optional[CachedPlugin]]:
+    def get_batch(self, hashes: list[str]) -> dict[str, CachedPlugin | None]:
         """
         Look up multiple hashes in batches.
 
@@ -145,7 +144,7 @@ class LocalCache:
         if not path.exists():
             raise FileNotFoundError(f"Golden set not found: {path}")
 
-        with open(path, "r", encoding="utf-8") as f:
+        with open(path, encoding="utf-8") as f:
             data = json.load(f)
 
         count = 0
@@ -156,7 +155,7 @@ class LocalCache:
                     if sha256:
                         conn.execute(
                             """
-                            INSERT OR REPLACE INTO hashes 
+                            INSERT OR REPLACE INTO hashes
                             (sha256, name, nexus_id, filename, status)
                             VALUES (?, ?, ?, ?, ?)
                         """,

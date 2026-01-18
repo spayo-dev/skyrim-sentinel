@@ -5,8 +5,8 @@ Discovers and hashes DLL files in mod directories.
 """
 
 import hashlib
+from collections.abc import Callable, Iterator
 from pathlib import Path
-from typing import Callable, Iterator
 
 # 64KB chunks for memory-efficient hashing
 CHUNK_SIZE = 65536

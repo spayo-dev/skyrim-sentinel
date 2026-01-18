@@ -7,6 +7,7 @@ from pathlib import Path
 from tkinter import filedialog
 
 import customtkinter as ctk
+
 from api_client import SentinelAPIError, SentinelClient
 from scanner import scan_directory
 
@@ -128,12 +129,8 @@ class SentinelApp(ctk.CTk):
         folder_frame.grid(row=2, column=0, padx=20, pady=10, sticky="ew")
         folder_frame.grid_columnconfigure(1, weight=1)
 
-        self.path_label = ctk.CTkLabel(
-            folder_frame, text="No folder selected", anchor="w"
-        )
-        self.path_label.grid(
-            row=0, column=0, columnspan=2, padx=10, pady=(10, 5), sticky="ew"
-        )
+        self.path_label = ctk.CTkLabel(folder_frame, text="No folder selected", anchor="w")
+        self.path_label.grid(row=0, column=0, columnspan=2, padx=10, pady=(10, 5), sticky="ew")
 
         browse_btn = ctk.CTkButton(
             folder_frame, text="Browse...", command=self._select_folder, width=100
@@ -235,11 +232,7 @@ class SentinelApp(ctk.CTk):
                     api_result = hash_to_result.get(h)
 
                     status = api_result.status if api_result else "unknown"
-                    plugin = (
-                        api_result.plugin.name
-                        if api_result and api_result.plugin
-                        else None
-                    )
+                    plugin = api_result.plugin.name if api_result and api_result.plugin else None
 
                     self.after(
                         0,
@@ -251,10 +244,12 @@ class SentinelApp(ctk.CTk):
                 # Add errors
                 for r in scan_results:
                     if r.get("error"):
+                        err_filename = r["filename"]
+                        err_msg = r.get("error")
                         self.after(
                             0,
-                            lambda f=r["filename"]: self.results_table.add_result(
-                                f, "error", r.get("error")
+                            lambda f=err_filename, e=err_msg: self.results_table.add_result(
+                                f, "error", e
                             ),
                         )
 

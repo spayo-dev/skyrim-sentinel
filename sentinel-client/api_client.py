@@ -9,6 +9,7 @@ from dataclasses import dataclass
 from typing import Literal
 
 import requests
+
 from local_cache import LocalCache, init_cache_from_golden_set
 
 

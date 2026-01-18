@@ -1,9 +1,16 @@
+"""
+Skyrim Sentinel - Hash Merge Utility
+
+Merges new_hashes.json into golden_set.json, creating plugin entries as needed.
+"""
+
 import json
 from datetime import UTC, datetime
 from pathlib import Path
 
 
-def merge_hashes():
+def merge_hashes() -> None:
+    """Merge newly scanned hashes from new_hashes.json into golden_set.json."""
     golden_path = Path("tools/golden_set.json")
     new_hashes_path = Path("tools/new_hashes.json")
 

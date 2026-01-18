@@ -1,12 +1,6 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
-import type {
-	KVPluginEntry,
-	ScanRequest,
-	ScanResponse,
-	ScanResult,
-	ErrorResponse,
-} from "./types";
+import type { ErrorResponse, KVPluginEntry, ScanRequest, ScanResponse, ScanResult } from "./types";
 
 // ============================================================================
 // App Configuration

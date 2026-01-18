@@ -119,7 +119,7 @@ function seedKV(preview: boolean, namespaceId?: string): void {
 			stdio: "inherit",
 		});
 		console.log("[+] KV seeding complete.");
-	} catch (error: unknown) {
+	} catch {
 		console.error("[!] Wrangler command failed. Is wrangler configured?");
 		process.exit(1);
 	}

@@ -1,8 +1,15 @@
+"""
+Skyrim Sentinel - Golden Set Sync Utility
+
+Matches scanned DLL hashes with known plugin names in golden_set.json.
+"""
+
 import json
 from pathlib import Path
 
 
-def sync_golden_set():
+def sync_golden_set() -> None:
+    """Sync scan_results.json hashes into golden_set.json for known plugins."""
     root = Path(__file__).parent
     golden_path = root / "golden_set.json"
     scan_path = root / "scan_results.json"
@@ -108,7 +115,7 @@ def sync_golden_set():
             updated_count += 1
 
     with open(golden_path, "w", encoding="utf-8") as f:
-        json.dump(golden, f, indent="\t")
+        json.dump(golden, f, indent=2)
 
     print(f"Updated {updated_count} plugins with verified hashes.")
 

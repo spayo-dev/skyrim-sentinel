@@ -37,7 +37,10 @@
 							"animation",
 							"gameplay",
 							"camera",
-							"audio"
+							"audio",
+							"physics",
+							"combat",
+							"adult"
 						]
 					},
 					"description": { "type": "string" },

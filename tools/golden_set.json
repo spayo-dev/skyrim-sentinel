@@ -203,6 +203,714 @@
 			"category": "core",
 			"description": "Enables extended ESL record limits on older game versions",
 			"files": []
+		},
+		{
+			"name": "Open Animation Replacer",
+			"nexusId": 92109,
+			"author": "Felisky",
+			"category": "animation",
+			"description": "Modern condition-based animation replacement framework",
+			"files": []
+		},
+		{
+			"name": "Nemesis Unlimited Behavior Engine",
+			"nexusId": 60033,
+			"author": "Shikyo Kira",
+			"category": "animation",
+			"description": "Animation behavior generation framework",
+			"files": []
+		},
+		{
+			"name": "XP32 Maximum Skeleton Special Extended",
+			"nexusId": 1988,
+			"author": "Groovtama",
+			"category": "animation",
+			"description": "Extended skeleton with extra bones for animations and physics",
+			"files": []
+		},
+		{
+			"name": "Payload Interpreter",
+			"nexusId": 65089,
+			"author": "Ersh",
+			"category": "animation",
+			"description": "Dynamic payload injection framework for animations",
+			"files": []
+		},
+		{
+			"name": "Animation Motion Revolution",
+			"nexusId": 50258,
+			"author": "alexsylex",
+			"category": "animation",
+			"description": "Fixes animation-movement synchronization issues",
+			"files": []
+		},
+		{
+			"name": "True Directional Movement",
+			"nexusId": 51614,
+			"author": "Ersh",
+			"category": "combat",
+			"description": "360-degree movement and target lock-on system",
+			"files": []
+		},
+		{
+			"name": "Precision - Accurate Melee Collisions",
+			"nexusId": 72347,
+			"author": "Ersh",
+			"category": "combat",
+			"description": "Accurate melee collision detection and hitboxes",
+			"files": []
+		},
+		{
+			"name": "Valhalla Combat",
+			"nexusId": 64741,
+			"author": "Jeir",
+			"category": "combat",
+			"description": "Script-free combat overhaul with timed blocking and stamina management",
+			"files": []
+		},
+		{
+			"name": "SCAR - Skyrim Combos AI Revolution",
+			"nexusId": 72014,
+			"author": "NickNak",
+			"category": "combat",
+			"description": "Combo-based AI combat enhancement",
+			"files": []
+		},
+		{
+			"name": "POISE - Stagger Overhaul SKSE",
+			"nexusId": 72653,
+			"author": "Jeir",
+			"category": "combat",
+			"description": "Custom stagger animations and poise system",
+			"files": []
+		},
+		{
+			"name": "Mortal Enemies SE",
+			"nexusId": 4881,
+			"author": "Sky",
+			"category": "combat",
+			"description": "Attack commitment and tracking rebalance",
+			"files": []
+		},
+		{
+			"name": "Ultimate Dodge Mod",
+			"nexusId": 33049,
+			"author": "ShikyoKira",
+			"category": "combat",
+			"description": "Scripted dodge mechanics with iframes",
+			"files": []
+		},
+		{
+			"name": "One Click Power Attack NG",
+			"nexusId": 96695,
+			"author": "GyroFibre",
+			"category": "combat",
+			"description": "Simplified power attack input",
+			"files": []
+		},
+		{
+			"name": "Attack Behavior Revamp",
+			"nexusId": 45378,
+			"author": "NickNak",
+			"category": "combat",
+			"description": "Combat behavior improvements for smoother attacks",
+			"files": []
+		},
+		{
+			"name": "Stagger On Hit SKSE",
+			"nexusId": 52498,
+			"author": "Jeir",
+			"category": "combat",
+			"description": "Reactive stagger system on weapon hits",
+			"files": []
+		},
+		{
+			"name": "FSMP - Faster HDT-SMP",
+			"nexusId": 57339,
+			"author": "aers",
+			"category": "physics",
+			"description": "High-performance physics simulation for body and cloth",
+			"files": []
+		},
+		{
+			"name": "CBPC - Physics with Collisions",
+			"nexusId": 21224,
+			"author": "vsv",
+			"category": "physics",
+			"description": "Body physics with collision detection",
+			"files": []
+		},
+		{
+			"name": "3BA - CBBE 3BBB Body Amazing",
+			"nexusId": 30174,
+			"author": "Acro",
+			"category": "physics",
+			"description": "CBBE 3BA body with physics support",
+			"files": []
+		},
+		{
+			"name": ".NET Script Framework",
+			"nexusId": 21294,
+			"author": "meh321",
+			"category": "utility",
+			"description": "Native code hook framework for advanced modding",
+			"files": []
+		},
+		{
+			"name": "SSE Display Tweaks",
+			"nexusId": 34705,
+			"author": "SLuckyD",
+			"category": "utility",
+			"description": "Display, framerate, and input adjustments",
+			"files": []
+		},
+		{
+			"name": "Crash Logger SSE AE VR",
+			"nexusId": 59818,
+			"author": "Nightfallstorm",
+			"category": "utility",
+			"description": "Crash log generation with PDB support",
+			"files": []
+		},
+		{
+			"name": "PapyrusUtil SE",
+			"nexusId": 13048,
+			"author": "exiledviper",
+			"category": "framework",
+			"description": "Modder scripting utility functions",
+			"files": []
+		},
+		{
+			"name": "FileAccess Interface for Skyrim SE",
+			"nexusId": 982,
+			"author": "Expired",
+			"category": "utility",
+			"description": "File system access from Papyrus scripts",
+			"files": []
+		},
+		{
+			"name": "SSE FPS Stabilizer",
+			"nexusId": 38438,
+			"author": "Jeir",
+			"category": "utility",
+			"description": "Dynamic framerate stabilization",
+			"files": []
+		},
+		{
+			"name": "QUI",
+			"nexusId": 65343,
+			"author": "VersuchDrei",
+			"category": "ui",
+			"description": "Quick user interface framework",
+			"files": []
+		},
+		{
+			"name": "dMenu",
+			"nexusId": 97221,
+			"author": "Jeir",
+			"category": "utility",
+			"description": "Debug menu framework for development",
+			"files": []
+		},
+		{
+			"name": "AutoBody SE",
+			"nexusId": 61321,
+			"author": "VersuchDrei",
+			"category": "utility",
+			"description": "Automated body assignment based on conditions",
+			"files": []
+		},
+		{
+			"name": "SmoothCam",
+			"nexusId": 41252,
+			"author": "mwilsnd",
+			"category": "camera",
+			"description": "Modern third-person camera with smooth transitions",
+			"files": []
+		},
+		{
+			"name": "Alternate Conversation Camera",
+			"nexusId": 21220,
+			"author": "Ciathyza",
+			"category": "camera",
+			"description": "Dialogue camera improvements and positioning",
+			"files": []
+		},
+		{
+			"name": "Immersive First Person View",
+			"nexusId": 22306,
+			"author": "meh321",
+			"category": "camera",
+			"description": "True first person body visibility",
+			"files": []
+		},
+		{
+			"name": "OStim Standalone",
+			"nexusId": 98163,
+			"author": "Sairion",
+			"category": "adult",
+			"description": "Advanced adult animation framework",
+			"files": []
+		},
+		{
+			"name": "Custom Skills Framework",
+			"nexusId": 41780,
+			"author": "Parapets",
+			"category": "framework",
+			"description": "Custom skill tree creation framework",
+			"files": []
+		},
+		{
+			"name": "Flower Girls SE",
+			"nexusId": 74329,
+			"author": "xvector",
+			"category": "adult",
+			"description": "Lightweight intimacy system",
+			"files": []
+		},
+		{
+			"name": "SexLab Framework SE",
+			"nexusId": 100001,
+			"author": "Ashal",
+			"category": "adult",
+			"description": "Core adult animation framework (Loverslab hosted)",
+			"files": []
+		},
+		{
+			"name": "SLAL - SexLab Animation Loader",
+			"nexusId": 100002,
+			"author": "nixos",
+			"category": "adult",
+			"description": "Animation pack loading system for SexLab",
+			"files": []
+		},
+		{
+			"name": "OSA - Skyrim Ascendancy Engine",
+			"nexusId": 100003,
+			"author": "CEO",
+			"category": "adult",
+			"description": "Animation scene orchestration engine",
+			"files": []
+		},
+		{
+			"name": "Community Shaders",
+			"nexusId": 86492,
+			"author": "doodlum",
+			"category": "graphics",
+			"description": "Community-driven shader framework",
+			"files": [
+				{
+					"filename": "CommunityShaders.dll",
+					"sha256": "f87781f0c69822fed533005819db6ab47d75f4f4bb08dabbe5707b96a8928ab4",
+					"size_bytes": 12496896,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "QuickLoot IE",
+			"nexusId": 120075,
+			"author": "ilian53",
+			"category": "ui",
+			"description": "Quick loot menu fork with improvements",
+			"files": [
+				{
+					"filename": "QuickLootIE.dll",
+					"sha256": "79fbf07653934dfe2e6bcb13c01d1563fe4c698f9854f1a0634b505bc11be733",
+					"size_bytes": 2568192,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Immersive Equipment Displays",
+			"nexusId": 62001,
+			"author": "SlavicPotato",
+			"category": "ui",
+			"description": "Display weapons and equipment on character",
+			"files": [
+				{
+					"filename": "ImmersiveEquipmentDisplays.dll",
+					"sha256": "e12da86be6c3412e1ad91ef7c12d51067f19e023a8d4ef8ec703ee43acedc38c",
+					"size_bytes": 5662720,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Infinity UI",
+			"nexusId": 74483,
+			"author": "Jeir",
+			"category": "ui",
+			"description": "Modular UI framework",
+			"files": [
+				{
+					"filename": "InfinityUI.dll",
+					"sha256": "b4571cbd90c2d66ed0708353e83972282022379d6239bdbd4c40254bbb22e80d",
+					"size_bytes": 1406464,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "SkyPatcher",
+			"nexusId": 106659,
+			"author": "Jeir",
+			"category": "utility",
+			"description": "Runtime game data patcher",
+			"files": [
+				{
+					"filename": "SkyPatcher.dll",
+					"sha256": "cc8664bbfae35a69eb729f2e95c95c758d846ca60e18f0ae254f8cb857fbe75c",
+					"size_bytes": 2275328,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Compass Navigation Overhaul",
+			"nexusId": 74484,
+			"author": "Jeir",
+			"category": "ui",
+			"description": "Enhanced compass and navigation system",
+			"files": [
+				{
+					"filename": "CompassNavigationOverhaul.dll",
+					"sha256": "4449723b381fa111fa8f21bfde4e899dce53001308f0cc1920c55033bf0f51ba",
+					"size_bytes": 1880576,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "PrivateProfileRedirector SE",
+			"nexusId": 18860,
+			"author": "Kerber",
+			"category": "utility",
+			"description": "Faster game start via INI file caching",
+			"files": [
+				{
+					"filename": "PrivateProfileRedirector.dll",
+					"sha256": "306914715c556fb650e84e9f97bc410fb3545c36d3146f7009ea779740323217",
+					"size_bytes": 5853184,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Simple Dual Sheath",
+			"nexusId": 50049,
+			"author": "ershin",
+			"category": "gameplay",
+			"description": "Display dual sheathed weapons on back",
+			"files": [
+				{
+					"filename": "SimpleDualSheath.dll",
+					"sha256": "99adef364e4c107711e6f0925bf4b1547a377168a832d12b28cd0e3d7283f86f",
+					"size_bytes": 535040,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Dismembering Framework",
+			"nexusId": 126203,
+			"author": "Jeir",
+			"category": "combat",
+			"description": "Enemy limb dismemberment system",
+			"files": [
+				{
+					"filename": "DismemberingFramework.dll",
+					"sha256": "447534bcb80d3136ef5046f6cbd80a8be1aca5cb9c265bdff7e40608c7bd973f",
+					"size_bytes": 2699776,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "FormList Manipulator",
+			"nexusId": 74037,
+			"author": "powerofthree",
+			"category": "framework",
+			"description": "Dynamic formlist modification at runtime",
+			"files": [
+				{
+					"filename": "FormListManipulator.dll",
+					"sha256": "82a3277c6c03e6b4d86c367637ba7fde9d8c9ec46cdf9ba1b0f59277b0c9928e",
+					"size_bytes": 961024,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Sound Record Distributor",
+			"nexusId": 77815,
+			"author": "powerofthree",
+			"category": "framework",
+			"description": "Distribute sound records dynamically",
+			"files": [
+				{
+					"filename": "SoundRecordDistributor.dll",
+					"sha256": "e7bd40d5b070c08b120caf364124e0551fd8f983f135c4c47dcdd0508b29f41e",
+					"size_bytes": 891904,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Inventory Interface Information Injector",
+			"nexusId": 85702,
+			"author": "Jeir",
+			"category": "ui",
+			"description": "Inject custom info into inventory UI",
+			"files": [
+				{
+					"filename": "InventoryInjector.dll",
+					"sha256": "f4346501d4a793635c05d970cc87e91253a5f5ce79ddd197ee24480423b934ca",
+					"size_bytes": 650752,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Simple Beheading NG",
+			"nexusId": 103198,
+			"author": "Jeir",
+			"category": "combat",
+			"description": "Decapitation system for executions",
+			"files": [
+				{
+					"filename": "SimpleBeheading.dll",
+					"sha256": "01cf1acefcda9d6d8838b1a87bf6e628ab7a28a008ad7fa245ff227b683770b2",
+					"size_bytes": 1943040,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Papyrus Tweaks NG",
+			"nexusId": 77779,
+			"author": "fireundubh",
+			"category": "utility",
+			"description": "Papyrus script performance tweaks",
+			"files": [
+				{
+					"filename": "PapyrusTweaks.dll",
+					"sha256": "596fcef3ecbed1cc9b7433306ecda503bd45cff033a0da00dcd572e9c2ccbb8d",
+					"size_bytes": 1016832,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Paired Animation Improvements",
+			"nexusId": 99621,
+			"author": "ershin",
+			"category": "animation",
+			"description": "Fixes and improvements for paired animations",
+			"files": [
+				{
+					"filename": "PairedAnimationImprovements.dll",
+					"sha256": "448f3b20097d7c38bcdc0939b98a1ec187efae99ac516bbeab349c59d32e4f85",
+					"size_bytes": 419328,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "moreHUD Inventory Edition",
+			"nexusId": 18619,
+			"author": "Ahzaab",
+			"category": "ui",
+			"description": "Additional HUD info for inventory",
+			"files": [
+				{
+					"filename": "AHZmoreHUDInventory.dll",
+					"sha256": "55128b96eb4078cbf8e7c26ab4561eb65c7001d0127df46ceab30cc4feb0d58e",
+					"size_bytes": 440320,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "ConsoleUtilSSE NG",
+			"nexusId": 76649,
+			"author": "shad0wshayd3",
+			"category": "utility",
+			"description": "Extended console utility functions",
+			"files": [
+				{
+					"filename": "ConsoleUtilSSE.dll",
+					"sha256": "ca94ffae9e3860c73c70b1cfc7dfc4cf05ee5d404fdd7b82ec5eb1fdd65761ee",
+					"size_bytes": 1398784,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Better Third Person Selection",
+			"nexusId": 64339,
+			"author": "Jeir",
+			"category": "gameplay",
+			"description": "Improved object selection in third person",
+			"files": [
+				{
+					"filename": "BetterThirdPersonSelection.dll",
+					"sha256": "ce24158a1aac15e7984d4280cff5a71b9ff75290df8803d7c03c5042454d627c",
+					"size_bytes": 2731008,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Animation Queue Fix",
+			"nexusId": 82395,
+			"author": "ershin",
+			"category": "fixes",
+			"description": "Fixes animation queue overflow issues",
+			"files": [
+				{
+					"filename": "AnimationQueueFix.dll",
+					"sha256": "4543f48828ba0d278a0178f7eb7af410ca7831a117221c0115e3db37a3e10f42",
+					"size_bytes": 380928,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Recursion Monitor",
+			"nexusId": 76867,
+			"author": "Umgak",
+			"category": "utility",
+			"description": "Monitors and fixes script recursion issues",
+			"files": [
+				{
+					"filename": "RecursionFPSFix.dll",
+					"sha256": "f63324b928bf633624f34f1b4a5907c7fa84c7971eebcab471104ad2dbcc1baf",
+					"size_bytes": 864768,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "ConsolePlusPlus",
+			"nexusId": 77945,
+			"author": "powerofthree",
+			"category": "utility",
+			"description": "Enhanced console commands",
+			"files": [
+				{
+					"filename": "po3_ConsolePlusPlus.dll",
+					"sha256": "c1efcaa80cf00a42a0f9dabf82378c8512c4472f1fbfe0cae73fc384363cb27a",
+					"size_bytes": 650752,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "MFG Fix NG",
+			"nexusId": 93365,
+			"author": "ershin",
+			"category": "fixes",
+			"description": "Facial expression fix for conversations",
+			"files": [
+				{
+					"filename": "mfgfix.dll",
+					"sha256": "af356bf1096d2a6b3e17bfef143ee15d8eda738f2539c33f46a57fd8625ac18b",
+					"size_bytes": 982016,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Contextual Crosshair",
+			"nexusId": 63980,
+			"author": "Jeir",
+			"category": "ui",
+			"description": "Dynamic crosshair based on context",
+			"files": [
+				{
+					"filename": "ContextualCrosshair.dll",
+					"sha256": "bdd42a43bd33f8446214b009f2b0cb216bdb510d159fc9967663d9916512f9c2",
+					"size_bytes": 607232,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Grass Sampler Fix",
+			"nexusId": 106080,
+			"author": "aers",
+			"category": "fixes",
+			"description": "Fixes grass rendering issues",
+			"files": [
+				{
+					"filename": "GrassSamplerFix.dll",
+					"sha256": "5959091aaba85bdcb75949034e31d638f42035e9d9d657f45ac90219449edda4",
+					"size_bytes": 531968,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "HeadpartWhitelist",
+			"nexusId": 111275,
+			"author": "powerofthree",
+			"category": "utility",
+			"description": "Control headpart availability per race",
+			"files": [
+				{
+					"filename": "po3_HeadpartWhitelist.dll",
+					"sha256": "0892545eefb14f9da822daaa1ee3d78ca62de8a4ffbf197076c6899ea18a6784",
+					"size_bytes": 610304,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "PhotoMode",
+			"nexusId": 91701,
+			"author": "powerofthree",
+			"category": "utility",
+			"description": "In-game photo mode with camera controls",
+			"files": [
+				{
+					"filename": "po3_PhotoMode.dll",
+					"sha256": "ff7458faeaf102037c199e3fe8e34d33429e88f76d32983682d85608d4ef8d9d",
+					"size_bytes": 3954176,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "Modex",
+			"nexusId": 106042,
+			"author": "Jeir",
+			"category": "utility",
+			"description": "Mod explorer and item spawning menu",
+			"files": [
+				{
+					"filename": "Modex.dll",
+					"sha256": "56884c64b070261a3986906d089dad6e221bf70e62edd232d22abcb1a2f2de77",
+					"size_bytes": 3322880,
+					"status": "verified"
+				}
+			]
+		},
+		{
+			"name": "ENB Input Disabler",
+			"nexusId": 62796,
+			"author": "Jeir",
+			"category": "utility",
+			"description": "Disables input when ENB menu is open",
+			"files": [
+				{
+					"filename": "ENBInputDisabler.dll",
+					"sha256": "dbfe63dd220aa01132a8cee392ddf975de0f5e1b12fb78a9aaf5c5282df5a385",
+					"size_bytes": 567296,
+					"status": "verified"
+				}
+			]
 		}
 	]
 }

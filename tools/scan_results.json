@@ -1,0 +1,614 @@
+[
+  {
+    "filename": "WidescreenScaleRemoved.dll",
+    "path": "Widescreen Scale Removed for 1-6-1130 and higher\\SKSE\\Plugins\\WidescreenScaleRemoved.dll",
+    "sha256": "6488d9640232932ce85cf58616dcc1e86aa6392feaf30bc012c1c32229f8427c",
+    "size_bytes": 621568
+  },
+  {
+    "filename": "valhallaCombat.dll",
+    "path": "Valhalla Combat\\SKSE\\Plugins\\valhallaCombat.dll",
+    "sha256": "b6f3203b5e969c284c55c9f3daa0eab69ad5f2d411514a86f2d257a2662b6ccf",
+    "size_bytes": 596480
+  },
+  {
+    "filename": "amd_fidelityfx_framegeneration_dx12.dll",
+    "path": "Upscaling - Community Shaders\\Shaders\\Upscaling\\FidelityFX\\amd_fidelityfx_framegeneration_dx12.dll",
+    "sha256": "1429c91128d59a20120dd09b189a7e7ddfecf7e7b700d825bce4c4c6e9c0d451",
+    "size_bytes": 1090832
+  },
+  {
+    "filename": "amd_fidelityfx_loader_dx12.dll",
+    "path": "Upscaling - Community Shaders\\Shaders\\Upscaling\\FidelityFX\\amd_fidelityfx_loader_dx12.dll",
+    "sha256": "11633127b050ec02e147987713900f403056147df529851b1388f987897d5b0e",
+    "size_bytes": 24840
+  },
+  {
+    "filename": "nvngx_dlss.dll",
+    "path": "Upscaling - Community Shaders\\Shaders\\Upscaling\\Streamline\\nvngx_dlss.dll",
+    "sha256": "e88a27b9629c1cd3a51bf25c605def1798c44d038267c520830e23d5959c985b",
+    "size_bytes": 29981808
+  },
+  {
+    "filename": "sl.common.dll",
+    "path": "Upscaling - Community Shaders\\Shaders\\Upscaling\\Streamline\\sl.common.dll",
+    "sha256": "b015702b768e4fa94ab16a4c745902513d60a438f5e0350ddd6899d542365483",
+    "size_bytes": 673240
+  },
+  {
+    "filename": "sl.dlss.dll",
+    "path": "Upscaling - Community Shaders\\Shaders\\Upscaling\\Streamline\\sl.dlss.dll",
+    "sha256": "4465fec835b776aeb138ba774bb09631d3521aeef58596cf4db81d83e3d190d3",
+    "size_bytes": 239064
+  },
+  {
+    "filename": "sl.interposer.dll",
+    "path": "Upscaling - Community Shaders\\Shaders\\Upscaling\\Streamline\\sl.interposer.dll",
+    "sha256": "48f79bdd8eb35d6de0e54a70799a3340913990ef5e0e3a837a4f724008d5685b",
+    "size_bytes": 556000
+  },
+  {
+    "filename": "sl.nis.dll",
+    "path": "Upscaling - Community Shaders\\Shaders\\Upscaling\\Streamline\\sl.nis.dll",
+    "sha256": "043dad09393653893e0ebde759e594052bc9fcd19db7e67fc9b026d434cda430",
+    "size_bytes": 966616
+  },
+  {
+    "filename": "TweenMenuOverhaul.dll",
+    "path": "Tween Menu Overhaul\\SKSE\\Plugins\\TweenMenuOverhaul.dll",
+    "sha256": "896f9273037c7ffc4cb0febacad3e44109949b03f5de88b70287ffb3092b6eb5",
+    "size_bytes": 740352
+  },
+  {
+    "filename": "TrueHUD.dll",
+    "path": "TrueHUD - HUD Additions\\SKSE\\Plugins\\TrueHUD.dll",
+    "sha256": "a7eec5e7e6997e04b158fa3add1e326682ee9720da98c5758c4e626bdb705f01",
+    "size_bytes": 759296
+  },
+  {
+    "filename": "TrueDirectionalMovement.dll",
+    "path": "True Directional Movement\\SKSE\\Plugins\\TrueDirectionalMovement.dll",
+    "sha256": "f836074720cca5594858dd83f81a37929290644270fce34d3f3ab5fa1367259f",
+    "size_bytes": 1014272
+  },
+  {
+    "filename": "TheNewGentleman.dll",
+    "path": "The New Gentleman\\skse\\plugins\\TheNewGentleman.dll",
+    "sha256": "2bc4091e7b2ad9e1b328f0f9abe51f10bd14063cee6c8de458e05077dcce504e",
+    "size_bytes": 1236992
+  },
+  {
+    "filename": "TargetFocus.dll",
+    "path": "Target Focus\\SKSE\\Plugins\\TargetFocus.dll",
+    "sha256": "d1c1af4fce5d258aee54da7a2eea2d5aa039f3e8f54d27a2e6f8d1c1b2ee4689",
+    "size_bytes": 584704
+  },
+  {
+    "filename": "po3_SpellPerkItemDistributor.dll",
+    "path": "Spell Perk Item Distributor (SPID)\\SKSE\\Plugins\\po3_SpellPerkItemDistributor.dll",
+    "sha256": "3854e94f4b8934469b646af0c2df04cb813a1ac88dd0b58fcd361b20bb0bf532",
+    "size_bytes": 1856512
+  },
+  {
+    "filename": "SoundRecordDistributor.dll",
+    "path": "Sound Record Distributor\\SKSE\\Plugins\\SoundRecordDistributor.dll",
+    "sha256": "e7bd40d5b070c08b120caf364124e0551fd8f983f135c4c47dcdd0508b29f41e",
+    "size_bytes": 891904
+  },
+  {
+    "filename": "SMP-NPC crash fix.dll",
+    "path": "SMP-NPC crash fix\\skse\\plugins\\SMP-NPC crash fix.dll",
+    "sha256": "f879aa1028d932e3e2d55ba0405858d29abfc24481b4b13fde3749134fd4e252",
+    "size_bytes": 31232
+  },
+  {
+    "filename": "SmoothCam.dll",
+    "path": "SmoothCam\\SKSE\\Plugins\\SmoothCam.dll",
+    "sha256": "8e00fa14b51980fb752c22f1c65d0aad3b3ba3f333e8f6f1a87d040cd85d53ae",
+    "size_bytes": 1453056
+  },
+  {
+    "filename": "SkyrimCharacterSheet.dll",
+    "path": "Skyrim Character Sheet\\SKSE\\Plugins\\SkyrimCharacterSheet.dll",
+    "sha256": "6db050e3e73194545780292441a36dc17789f8369547dbdef7beb6da5d3299c2",
+    "size_bytes": 975872
+  },
+  {
+    "filename": "SkyPatcher.dll",
+    "path": "SkyPatcher\\SKSE\\Plugins\\SkyPatcher.dll",
+    "sha256": "cc8664bbfae35a69eb729f2e95c95c758d846ca60e18f0ae254f8cb857fbe75c",
+    "size_bytes": 2275328
+  },
+  {
+    "filename": "skse64_1_6_1170.dll",
+    "path": "SKSE 2.2.6\\Root\\skse64_1_6_1170.dll",
+    "sha256": "c9a2c8a80df6bf2372c5f49468bb2e5ab67786157265b6f29ece9f4eac075d54",
+    "size_bytes": 1173504
+  },
+  {
+    "filename": "SimpleDualSheath.dll",
+    "path": "Simple Dual Sheath\\SKSE\\Plugins\\SimpleDualSheath.dll",
+    "sha256": "99adef364e4c107711e6f0925bf4b1547a377168a832d12b28cd0e3d7283f86f",
+    "size_bytes": 535040
+  },
+  {
+    "filename": "SimpleBeheading.dll",
+    "path": "Simple Beheading - NG\\SKSE\\Plugins\\SimpleBeheading.dll",
+    "sha256": "01cf1acefcda9d6d8838b1a87bf6e628ab7a28a008ad7fa245ff227b683770b2",
+    "size_bytes": 1943040
+  },
+  {
+    "filename": "ShowPlayerInMenus.dll",
+    "path": "Show Player In Menus\\SKSE\\Plugins\\ShowPlayerInMenus.dll",
+    "sha256": "30794b935a0aece3db72edb79d179c51c80c71e0a11e379b6a9179a7e42c2d12",
+    "size_bytes": 412672
+  },
+  {
+    "filename": "ScrambledBugs.dll",
+    "path": "Scrambled Bugs\\SKSE\\Plugins\\ScrambledBugs.dll",
+    "sha256": "dd8b458e623fe9362a0e0acaa32223dad5a25a798019305dc8ffa987f9d6b969",
+    "size_bytes": 621568
+  },
+  {
+    "filename": "ScaleformTranslationPP.dll",
+    "path": "Scaleform Translation Plus Plus NG\\SKSE\\Plugins\\ScaleformTranslationPP.dll",
+    "sha256": "ea1c97674d5943365cb413ea892a923910bb0f7f62dfd947fc137548d3e8cc35",
+    "size_bytes": 1091072
+  },
+  {
+    "filename": "po3_SaveUnbaker.dll",
+    "path": "Save Unbaker\\SKSE\\Plugins\\po3_SaveUnbaker.dll",
+    "sha256": "a24ce1eb8dea9dc7f4e73a4dbf01dcf96aa4da2befa7ba44b8bdf65cb34ce48a",
+    "size_bytes": 616448
+  },
+  {
+    "filename": "Save&LoadAcceleratorForSKSECosaves.dll",
+    "path": "Save & Load Accelerator for SKSE Cosaves (S.L.A.C.K.)\\DLLPlugins\\Save&LoadAcceleratorForSKSECosaves.dll",
+    "sha256": "fd00136cb206fbfca3edc2748b76213bbc46838d4814299e70838ac26bfff58a",
+    "size_bytes": 39424
+  },
+  {
+    "filename": "SanguineSymphony.dll",
+    "path": "Sanguine Symphony\\SKSE\\Plugins\\SanguineSymphony.dll",
+    "sha256": "8da57456a0e723b42dcce7e26f8da154f676f5ac42f4dc913c5cce463f9cc69d",
+    "size_bytes": 2108416
+  },
+  {
+    "filename": "RemoveAllItemsFix.dll",
+    "path": "RemoveAllItems Freeze Fix\\SKSE\\Plugins\\RemoveAllItemsFix.dll",
+    "sha256": "0134f3276e17c184fa154913546d02ddb940c526cfb3aa999422d4ec919b8b1f",
+    "size_bytes": 532480
+  },
+  {
+    "filename": "RecursionFPSFix.dll",
+    "path": "Recursion Monitor\\SKSE\\Plugins\\RecursionFPSFix.dll",
+    "sha256": "f63324b928bf633624f34f1b4a5907c7fa84c7971eebcab471104ad2dbcc1baf",
+    "size_bytes": 864768
+  },
+  {
+    "filename": "skee64.dll",
+    "path": "RaceMenu\\SKSE\\Plugins\\skee64.dll",
+    "sha256": "a81e1f8a5fa86f9fda35602dae38e74fcd5c2f57338e702059ce1584991a089b",
+    "size_bytes": 2491392
+  },
+  {
+    "filename": "QuickLootIE.dll",
+    "path": "QuickLoot IE - A QuickLoot EE Fork\\SKSE\\Plugins\\QuickLootIE.dll",
+    "sha256": "79fbf07653934dfe2e6bcb13c01d1563fe4c698f9854f1a0634b505bc11be733",
+    "size_bytes": 2568192
+  },
+  {
+    "filename": "QuestJournalOverhaul.dll",
+    "path": "Quest Journal Overhaul\\SKSE\\Plugins\\QuestJournalOverhaul.dll",
+    "sha256": "7ff0430e0115ba1439556fc0511aa56599156df91f3dd531aadfaf06cbf519a1",
+    "size_bytes": 777728
+  },
+  {
+    "filename": "PrivateProfileRedirector.dll",
+    "path": "PrivateProfileRedirector SE - Faster game start (INI file cacher)\\SKSE\\Plugins\\PrivateProfileRedirector.dll",
+    "sha256": "306914715c556fb650e84e9f97bc410fb3545c36d3146f7009ea779740323217",
+    "size_bytes": 5853184
+  },
+  {
+    "filename": "Precision.dll",
+    "path": "Precision\\SKSE\\Plugins\\Precision.dll",
+    "sha256": "b4ab4a5a3673324b222b59beed1378abe7982f85af5248d2a7225bc46d0c4f32",
+    "size_bytes": 1881600
+  },
+  {
+    "filename": "po3_Tweaks.dll",
+    "path": "powerofthree's Tweaks\\SKSE\\Plugins\\po3_Tweaks.dll",
+    "sha256": "1aff9914d9685c16f7dce11882186ca5dd15402c37159bc45ce1584ab3475e70",
+    "size_bytes": 1041920
+  },
+  {
+    "filename": "po3_PapyrusExtender.dll",
+    "path": "powerofthree's Papyrus Extender\\SKSE\\Plugins\\po3_PapyrusExtender.dll",
+    "sha256": "5c39fa85d96426be57cd618dc437aed4ea59a19b4f357caae273021ac004d20a",
+    "size_bytes": 3076608
+  },
+  {
+    "filename": "po3_PhotoMode.dll",
+    "path": "PhotoMode\\SKSE\\Plugins\\po3_PhotoMode.dll",
+    "sha256": "ff7458faeaf102037c199e3fe8e34d33429e88f76d32983682d85608d4ef8d9d",
+    "size_bytes": 3954176
+  },
+  {
+    "filename": "PapyrusUtil.dll",
+    "path": "PapyrusUtil SE\\SKSE\\Plugins\\PapyrusUtil.dll",
+    "sha256": "2fb155b8508e085616c5f72cb8fd2368275557dc56988300b92e540930d1f444",
+    "size_bytes": 1436160
+  },
+  {
+    "filename": "PapyrusTweaks.dll",
+    "path": "Papyrus Tweaks NG\\SKSE\\Plugins\\PapyrusTweaks.dll",
+    "sha256": "596fcef3ecbed1cc9b7433306ecda503bd45cff033a0da00dcd572e9c2ccbb8d",
+    "size_bytes": 1016832
+  },
+  {
+    "filename": "PairedAnimationImprovements.dll",
+    "path": "Paired Animation Improvements\\SKSE\\Plugins\\PairedAnimationImprovements.dll",
+    "sha256": "448f3b20097d7c38bcdc0939b98a1ec187efae99ac516bbeab349c59d32e4f85",
+    "size_bytes": 419328
+  },
+  {
+    "filename": "oxygenMeter2.dll",
+    "path": "OxygenMeter2\\SKSE\\Plugins\\oxygenMeter2.dll",
+    "sha256": "e586b8e1c693e26ab057be5cfc0adffc215207f6253df756035b3e0a85a2b956",
+    "size_bytes": 892928
+  },
+  {
+    "filename": "OpenAnimationReplacer-IEDConditionExtensions.dll",
+    "path": "Open Animation Replacer - IED Conditions\\SKSE\\Plugins\\OpenAnimationReplacer-IEDConditionExtensions.dll",
+    "sha256": "8669298ea4e640e2ac7867ecdf29be59b7e2f56014831b11b99a14bdb5b3b698",
+    "size_bytes": 1112064
+  },
+  {
+    "filename": "OpenAnimationReplacer.dll",
+    "path": "Open Animation Replacer\\SKSE\\Plugins\\OpenAnimationReplacer.dll",
+    "sha256": "a908eca3a068c3ea67edc3495e8baa80038c3db345b7e1a051c80b9ad093a1b7",
+    "size_bytes": 3443712
+  },
+  {
+    "filename": "MaxsuAIProcessFix.dll",
+    "path": "NPC AI Process Position Fix - NG\\SKSE\\Plugins\\MaxsuAIProcessFix.dll",
+    "sha256": "1deb4c747d655c5a5410811bd36a2be5033e57c5e271b2aabd2613b2c94109df",
+    "size_bytes": 400384
+  },
+  {
+    "filename": "NextGenDecapitations.dll",
+    "path": "Next-Gen Decapitations\\SKSE\\Plugins\\NextGenDecapitations.dll",
+    "sha256": "18337a8938d5255f030d296a507ef30ddf81101c2ddddcbf12aa5bbaa92e06fe",
+    "size_bytes": 2218496
+  },
+  {
+    "filename": "NativeEditorIDFix.dll",
+    "path": "Native EditorID Fix\\SKSE\\Plugins\\NativeEditorIDFix.dll",
+    "sha256": "d0398459beaa2186cf39f5512c1de705c0f6c53709610f8daffd5deeb7b79ef3",
+    "size_bytes": 314880
+  },
+  {
+    "filename": "AHZmoreHUDInventory.dll",
+    "path": "moreHUD Inventory Edition\\SKSE\\Plugins\\AHZmoreHUDInventory.dll",
+    "sha256": "55128b96eb4078cbf8e7c26ab4561eb65c7001d0127df46ceab30cc4feb0d58e",
+    "size_bytes": 440320
+  },
+  {
+    "filename": "MoreInformativeConsole.dll",
+    "path": "More Informative Console\\SKSE\\plugins\\MoreInformativeConsole.dll",
+    "sha256": "b655c706cfdb07973ec398c73bd35d85aa276ffb903f87b3674269e504db16ba",
+    "size_bytes": 1154048
+  },
+  {
+    "filename": "Modex.dll",
+    "path": "Modex - A Mod Explorer Menu (AddItemMenu)\\SKSE\\Plugins\\Modex.dll",
+    "sha256": "56884c64b070261a3986906d089dad6e221bf70e62edd232d22abcb1a2f2de77",
+    "size_bytes": 3322880
+  },
+  {
+    "filename": "mfgfix.dll",
+    "path": "Mfg Fix NG\\SKSE\\Plugins\\mfgfix.dll",
+    "sha256": "af356bf1096d2a6b3e17bfef143ee15d8eda738f2539c33f46a57fd8625ac18b",
+    "size_bytes": 982016
+  },
+  {
+    "filename": "mfgfix.dll",
+    "path": "Mfg Fix\\skse\\plugins\\mfgfix.dll",
+    "sha256": "62e025e1f33b3e98acebe865fdeef2970d3f48c8a038504f941e621443a1ebbe",
+    "size_bytes": 435200
+  },
+  {
+    "filename": "MCMHelper.dll",
+    "path": "MCM Helper\\SKSE\\Plugins\\MCMHelper.dll",
+    "sha256": "059a72858477a109dba44852fe19188ba4aca6b49b1b71863669dc00c4b7e037",
+    "size_bytes": 882688
+  },
+  {
+    "filename": "LeveledListCrashPrevention.dll",
+    "path": "LeveledList Crash Fix\\SKSE\\Plugins\\LeveledListCrashPrevention.dll",
+    "sha256": "e50068ccf7c38ea91c6c1f43cfb64086ae0ef36bbb19320f9a2d81eedae1b940",
+    "size_bytes": 834560
+  },
+  {
+    "filename": "po3_KeywordItemDistributor.dll",
+    "path": "Keyword Item Distributor\\SKSE\\Plugins\\po3_KeywordItemDistributor.dll",
+    "sha256": "e7526b84193e04cab0b73735698311a36c0851c3726c7ef6cf57e2c6aa2065ce",
+    "size_bytes": 1623040
+  },
+  {
+    "filename": "JContainers64.dll",
+    "path": "JContainers SE\\SKSE\\Plugins\\JContainers64.dll",
+    "sha256": "3fcd32150c68f1691fe225a76f44911d35cfd0211257190484d1be790de23dac",
+    "size_bytes": 2931712
+  },
+  {
+    "filename": "InventoryInjector.dll",
+    "path": "Inventory Interface Information Injector - I4\\SKSE\\Plugins\\InventoryInjector.dll",
+    "sha256": "f4346501d4a793635c05d970cc87e91253a5f5ce79ddd197ee24480423b934ca",
+    "size_bytes": 650752
+  },
+  {
+    "filename": "InfinityUI.dll",
+    "path": "Infinity UI\\SKSE\\Plugins\\InfinityUI.dll",
+    "sha256": "b4571cbd90c2d66ed0708353e83972282022379d6239bdbd4c40254bbb22e80d",
+    "size_bytes": 1406464
+  },
+  {
+    "filename": "ImprovedCameraSE.dll",
+    "path": "Improved Camera SE\\skse\\plugins\\ImprovedCameraSE.dll",
+    "sha256": "16628f90355fbeb60ab174a09dcc314afc5546cb9cbecce08a239d01b7ad24c9",
+    "size_bytes": 1446400
+  },
+  {
+    "filename": "ImmersiveEquipmentDisplays.dll",
+    "path": "Immersive Equipment Displays\\SKSE\\Plugins\\ImmersiveEquipmentDisplays.dll",
+    "sha256": "e12da86be6c3412e1ad91ef7c12d51067f19e023a8d4ef8ec703ee43acedc38c",
+    "size_bytes": 5662720
+  },
+  {
+    "filename": "po3_HeadpartWhitelist.dll",
+    "path": "HeadpartWhitelist\\SKSE\\Plugins\\po3_HeadpartWhitelist.dll",
+    "sha256": "0892545eefb14f9da822daaa1ee3d78ca62de8a4ffbf197076c6899ea18a6784",
+    "size_bytes": 610304
+  },
+  {
+    "filename": "GrassSamplerFix.dll",
+    "path": "Grass Sampler Fix\\SKSE\\Plugins\\GrassSamplerFix.dll",
+    "sha256": "5959091aaba85bdcb75949034e31d638f42035e9d9d657f45ac90219449edda4",
+    "size_bytes": 531968
+  },
+  {
+    "filename": "FormListManipulator.dll",
+    "path": "FormList Manipulator - FLM\\SKSE\\Plugins\\FormListManipulator.dll",
+    "sha256": "82a3277c6c03e6b4d86c367637ba7fde9d8c9ec46cdf9ba1b0f59277b0c9928e",
+    "size_bytes": 961024
+  },
+  {
+    "filename": "hdtSMP64.dll",
+    "path": "Faster HDT-SMP\\SKSE\\Plugins\\hdtSMP64.dll",
+    "sha256": "ceb5b009191bb795f2e1d7d0c49deef1436cd87b5082ee9f4ec6a98b22a0a582",
+    "size_bytes": 6239744
+  },
+  {
+    "filename": "d3dx9_42.dll",
+    "path": "Engine Fixes\\Root\\d3dx9_42.dll",
+    "sha256": "cf366987da6237559eb6e113ea717ec21762c9eec3a87d9dc4fa9ddfe7789c26",
+    "size_bytes": 88576
+  },
+  {
+    "filename": "EngineFixes.dll",
+    "path": "Engine Fixes\\SKSE\\Plugins\\EngineFixes.dll",
+    "sha256": "44f679d547244fb60bd10f9e705ba1d0ee421e4951ebc211070fe5240b54f14a",
+    "size_bytes": 2439680
+  },
+  {
+    "filename": "ENBInputDisabler.dll",
+    "path": "ENB Input Disabler\\SKSE\\Plugins\\ENBInputDisabler.dll",
+    "sha256": "dbfe63dd220aa01132a8cee392ddf975de0f5e1b12fb78a9aaf5c5282df5a385",
+    "size_bytes": 567296
+  },
+  {
+    "filename": "ENBHelperSE.dll",
+    "path": "ENB Helper SE\\skse\\plugins\\ENBHelperSE.dll",
+    "sha256": "cfb1650eb592b488c8d8e89c98c5ef1bcea785e466ae4f21374990c6785ca62e",
+    "size_bytes": 573440
+  },
+  {
+    "filename": "ENBFrameGeneration.dll",
+    "path": "ENB Frame Generation\\SKSE\\Plugins\\ENBFrameGeneration.dll",
+    "sha256": "cb30670cafe7e277ad2d28fb9a7aafc06bad50ce512cd7991a07ee6aced0e598",
+    "size_bytes": 9393664
+  },
+  {
+    "filename": "amd_fidelityfx_dx12.dll",
+    "path": "ENB Frame Generation\\SKSE\\Plugins\\ENBFrameGeneration\\FidelityFX\\amd_fidelityfx_dx12.dll",
+    "sha256": "5672ee4202aa5417e23369d548a140652367494299a7678b42aa5b3395f76ad7",
+    "size_bytes": 6647504
+  },
+  {
+    "filename": "d3d11.dll",
+    "path": "ENB Core\\Root\\d3d11.dll",
+    "sha256": "f789adbb281ccb89513969b3eee41e7e9bff80910314dfd39dfbe35841042fb1",
+    "size_bytes": 4575232
+  },
+  {
+    "filename": "d3dcompiler_46e.dll",
+    "path": "ENB Core\\Root\\d3dcompiler_46e.dll",
+    "sha256": "ff2fffaf99916720914753d10e1db6e364011bb23da143178250cbea7dbfb945",
+    "size_bytes": 3873208
+  },
+  {
+    "filename": "d3d11.dll",
+    "path": "DXVK\\Root\\d3d11.dll",
+    "sha256": "e9b3a452bc623c39b025e06e248276a9b8bcd87eb7eee7de55e8d5c5bf822522",
+    "size_bytes": 4444174
+  },
+  {
+    "filename": "dxgi.dll",
+    "path": "DXVK\\Root\\dxgi.dll",
+    "sha256": "5e291e1b41a2a5ec0727a629fab7b43b8ebc9a269f58439ea8eed937925084f9",
+    "size_bytes": 2945038
+  },
+  {
+    "filename": "SSEDisplayTweaks.dll",
+    "path": "Display Tweaks\\SKSE\\Plugins\\SSEDisplayTweaks.dll",
+    "sha256": "ae83f3a73359e45de98a39596ba9d96f416ae15f7cd6925dc347d484b9faf5bb",
+    "size_bytes": 577536
+  },
+  {
+    "filename": "DismemberingFramework.dll",
+    "path": "Dismembering Framework\\SKSE\\Plugins\\DismemberingFramework.dll",
+    "sha256": "447534bcb80d3136ef5046f6cbd80a8be1aca5cb9c265bdff7e40608c7bd973f",
+    "size_bytes": 2699776
+  },
+  {
+    "filename": "MaxsuDetectionMeter.dll",
+    "path": "Detection Meter - AE Support\\SKSE\\Plugins\\MaxsuDetectionMeter.dll",
+    "sha256": "a4803da251251268c42c7986037635daf502fa697ebaeccd0adeb12a41550959",
+    "size_bytes": 1078272
+  },
+  {
+    "filename": "MaxsuDetectionMeter.dll",
+    "path": "Detection Meter\\SKSE\\Plugins\\MaxsuDetectionMeter.dll",
+    "sha256": "238e7c351c34958a8ed9aa38408c95fd0ba248a44c58c718b4dddb7faadaf93b",
+    "size_bytes": 2067456
+  },
+  {
+    "filename": "CrashLogger.dll",
+    "path": "Crash Logger SSE AE VR - PDB support\\SKSE\\Plugins\\CrashLogger.dll",
+    "sha256": "b556270889208a00ae20e0a68482178bafc56784fbfe67b9e9e52f74e056cf31",
+    "size_bytes": 2836480
+  },
+  {
+    "filename": "msdia140.dll",
+    "path": "Crash Logger SSE AE VR - PDB support\\SKSE\\Plugins\\msdia140.dll",
+    "sha256": "b52db46f4c4dc7705a802956edad33b60aeef5f184191dfd2e20c361608ffe86",
+    "size_bytes": 2051096
+  },
+  {
+    "filename": "CoreImpactFramework.dll",
+    "path": "Core Impact Framework (CIF)\\SKSE\\Plugins\\CoreImpactFramework.dll",
+    "sha256": "47052dc9e4d82222725cdec6f9b45e5140b100ee1397882a0050e193aaee9c8a",
+    "size_bytes": 2651648
+  },
+  {
+    "filename": "ContextualCrosshair.dll",
+    "path": "Contextual Crosshair\\SKSE\\Plugins\\ContextualCrosshair.dll",
+    "sha256": "bdd42a43bd33f8446214b009f2b0cb216bdb510d159fc9967663d9916512f9c2",
+    "size_bytes": 607232
+  },
+  {
+    "filename": "CraftingCategories.dll",
+    "path": "Constructible Object Custom Keyword System - COCKS\\SKSE\\Plugins\\CraftingCategories.dll",
+    "sha256": "6f4b55e335bf1a17b297d71ae8ed1be5b1aec141c8879f00824c83681c818ebb",
+    "size_bytes": 474112
+  },
+  {
+    "filename": "ConsoleUtilSSE.dll",
+    "path": "ConsoleUtilSSE NG\\SKSE\\Plugins\\ConsoleUtilSSE.dll",
+    "sha256": "ca94ffae9e3860c73c70b1cfc7dfc4cf05ee5d404fdd7b82ec5eb1fdd65761ee",
+    "size_bytes": 1398784
+  },
+  {
+    "filename": "po3_ConsolePlusPlus.dll",
+    "path": "ConsolePlusPlus\\SKSE\\Plugins\\po3_ConsolePlusPlus.dll",
+    "sha256": "c1efcaa80cf00a42a0f9dabf82378c8512c4472f1fbfe0cae73fc384363cb27a",
+    "size_bytes": 650752
+  },
+  {
+    "filename": "CompassNavigationOverhaul.dll",
+    "path": "Compass Navigation Overhaul\\SKSE\\Plugins\\CompassNavigationOverhaul.dll",
+    "sha256": "4449723b381fa111fa8f21bfde4e899dce53001308f0cc1920c55033bf0f51ba",
+    "size_bytes": 1880576
+  },
+  {
+    "filename": "renderdoc.dll",
+    "path": "Community Shaders\\Renderdoc\\renderdoc.dll",
+    "sha256": "d76b061eba384cb376daf14737d13a8d906037e20665d26ce38523088797798a",
+    "size_bytes": 26004624
+  },
+  {
+    "filename": "CommunityShaders.dll",
+    "path": "Community Shaders\\SKSE\\Plugins\\CommunityShaders.dll",
+    "sha256": "f87781f0c69822fed533005819db6ab47d75f4f4bb08dabbe5707b96a8928ab4",
+    "size_bytes": 12496896
+  },
+  {
+    "filename": "MapMarkerFramework.dll",
+    "path": "CoMAP\\SKSE\\Plugins\\MapMarkerFramework.dll",
+    "sha256": "7fbbb8178978ca48cd26c19e54ddc315f4319eee4c748347f5cbb452a1b6454b",
+    "size_bytes": 627200
+  },
+  {
+    "filename": "cbp.dll",
+    "path": "CBPC - Physics with Collisions\\SKSE\\Plugins\\cbp.dll",
+    "sha256": "e1976ae08f3158eb9ecdf0df803844a5c4518705a9c7441b87bee0055103b2f1",
+    "size_bytes": 1100288
+  },
+  {
+    "filename": "po3_CameraPersistenceFixes.dll",
+    "path": "Camera Persistence Fixes\\SKSE\\Plugins\\po3_CameraPersistenceFixes.dll",
+    "sha256": "d3b3503250bffce66c9a3d9c60782b4842721b386e3c50b6b93b6634b680c5f3",
+    "size_bytes": 863232
+  },
+  {
+    "filename": "CameraShake.dll",
+    "path": "Camera Noise\\SKSE\\Plugins\\CameraShake.dll",
+    "sha256": "69826d780af456ed2ebcfa4d330d25af20f9ba3992ad9663db2c89ee67358d2b",
+    "size_bytes": 660480
+  },
+  {
+    "filename": "BugFixesSSE.dll",
+    "path": "Bug Fixes SSE\\SKSE\\Plugins\\BugFixesSSE.dll",
+    "sha256": "24c1c73500c34950ec89240aa980d774308c914a632044c08d33e261cee7fb79",
+    "size_bytes": 569344
+  },
+  {
+    "filename": "BetterThirdPersonSelection.dll",
+    "path": "Better Third Person Selection - BTPS\\SKSE\\Plugins\\BetterThirdPersonSelection.dll",
+    "sha256": "ce24158a1aac15e7984d4280cff5a71b9ff75290df8803d7c03c5042454d627c",
+    "size_bytes": 2731008
+  },
+  {
+    "filename": "po3_BaseObjectSwapper.dll",
+    "path": "Base Object Swapper\\SKSE\\Plugins\\po3_BaseObjectSwapper.dll",
+    "sha256": "998218f12588641858af160c42e12455d9064a1b5adfa924a8d8245a37991029",
+    "size_bytes": 1319936
+  },
+  {
+    "filename": "AnimationQueueFix.dll",
+    "path": "Animation Queue Fix\\SKSE\\Plugins\\AnimationQueueFix.dll",
+    "sha256": "4543f48828ba0d278a0178f7eb7af410ca7831a117221c0115e3db37a3e10f42",
+    "size_bytes": 380928
+  },
+  {
+    "filename": "AnimationMotionRevolution.dll",
+    "path": "Animation Motion Revolution\\SKSE\\Plugins\\AnimationMotionRevolution.dll",
+    "sha256": "359f9389e1093062b49b3595277c2289052bc5900a9ecd109c715e50f0e8d06f",
+    "size_bytes": 1467904
+  },
+  {
+    "filename": "AnimationMotionFix.dll",
+    "path": "Animation Motion Fix\\SKSE\\Plugins\\AnimationMotionFix.dll",
+    "sha256": "19273eefb67b5428fa0dffb7cbe05eba9f3d3692717582088640a60b2882358e",
+    "size_bytes": 1110016
+  },
+  {
+    "filename": "SrtCrashFix64.dll",
+    "path": "Animation Limit Crash Fix SSE\\SKSE\\Plugins\\SrtCrashFix64.dll",
+    "sha256": "c061133654df535d86852621bddcd9346d4831fadbc8a4d1ccae40079f3bb896",
+    "size_bytes": 19968
+  },
+  {
+    "filename": "AnimatedInteractions.dll",
+    "path": "Animated Interactions\\SKSE\\Plugins\\AnimatedInteractions.dll",
+    "sha256": "358c66703ec85d490a6f60e5fe413c782ca5463fcc30bd809a2e21264e6dfe67",
+    "size_bytes": 1005568
+  },
+  {
+    "filename": "ActorLimitFix.dll",
+    "path": "Actor Limit Fix\\SKSE\\Plugins\\ActorLimitFix.dll",
+    "sha256": "b28de705613aceefd16d44bfc4fa21288b644be5a7decaf9c5603690b1d89a23",
+    "size_bytes": 563712
+  }
+]

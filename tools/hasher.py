@@ -73,12 +73,14 @@ def scan_directory(directory: Path, verbose: bool = True) -> list[dict]:
 
         try:
             file_hash = hash_file(dll_path)
-            results.append({
-                "filename": dll_path.name,
-                "path": str(dll_path.relative_to(directory)),
-                "sha256": file_hash,
-                "size_bytes": dll_path.stat().st_size,
-            })
+            results.append(
+                {
+                    "filename": dll_path.name,
+                    "path": str(dll_path.relative_to(directory)),
+                    "sha256": file_hash,
+                    "size_bytes": dll_path.stat().st_size,
+                }
+            )
         except (PermissionError, OSError) as e:
             print(f"  [ERROR] {e}", file=sys.stderr)
 
@@ -108,13 +110,15 @@ def update_golden_set(
         for plugin in manifest["plugins"]:
             if plugin["name"] == plugin_name:
                 for h in hashes:
-                    plugin["files"].append({
-                        "filename": h["filename"],
-                        "sha256": h["sha256"],
-                        "size_bytes": h["size_bytes"],
-                        "status": "pending",
-                        "added": datetime.now(UTC).isoformat(),
-                    })
+                    plugin["files"].append(
+                        {
+                            "filename": h["filename"],
+                            "sha256": h["sha256"],
+                            "size_bytes": h["size_bytes"],
+                            "status": "pending",
+                            "added": datetime.now(UTC).isoformat(),
+                        }
+                    )
                 break
 
     with open(manifest_path, "w", encoding="utf-8") as f:
@@ -139,15 +143,19 @@ def export_for_kv(manifest_path: Path, output_path: Path) -> None:
     for plugin in manifest["plugins"]:
         for file_entry in plugin.get("files", []):
             if file_entry.get("sha256"):
-                kv_entries.append({
-                    "key": f"sha256:{file_entry['sha256']}",
-                    "value": json.dumps({
-                        "name": plugin["name"],
-                        "nexusId": plugin["nexusId"],
-                        "filename": file_entry["filename"],
-                        "status": file_entry.get("status", "verified"),
-                    }),
-                })
+                kv_entries.append(
+                    {
+                        "key": f"sha256:{file_entry['sha256']}",
+                        "value": json.dumps(
+                            {
+                                "name": plugin["name"],
+                                "nexusId": plugin["nexusId"],
+                                "filename": file_entry["filename"],
+                                "status": file_entry.get("status", "verified"),
+                            }
+                        ),
+                    }
+                )
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(kv_entries, f, indent=2)
@@ -169,9 +177,7 @@ def main():
     # scan command
     scan_parser = subparsers.add_parser("scan", help="Scan directory for DLLs")
     scan_parser.add_argument("directory", type=Path, help="Directory to scan")
-    scan_parser.add_argument(
-        "--output", "-o", type=Path, help="Output JSON file (default: stdout)"
-    )
+    scan_parser.add_argument("--output", "-o", type=Path, help="Output JSON file (default: stdout)")
 
     # hash command
     hash_parser = subparsers.add_parser("hash", help="Hash a single file")
@@ -180,13 +186,15 @@ def main():
     # export command
     export_parser = subparsers.add_parser("export", help="Export to KV format")
     export_parser.add_argument(
-        "--manifest", "-m",
+        "--manifest",
+        "-m",
         type=Path,
         default=Path(__file__).parent / "golden_set.json",
         help="Path to golden_set.json",
     )
     export_parser.add_argument(
-        "--output", "-o",
+        "--output",
+        "-o",
         type=Path,
         default=Path(__file__).parent / "kv_bulk.json",
         help="Output path for KV bulk file",

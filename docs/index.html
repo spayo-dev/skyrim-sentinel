@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyrim Sentinel - Golden Set Database</title>
+    <meta name="description" content="Verified SKSE plugin hashes for supply chain security">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-tertiary: #21262d;
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --accent: #58a6ff;
+            --green: #3fb950;
+            --yellow: #d29922;
+            --red: #f85149;
+            --border: #30363d;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: var(--bg-secondary);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .search-container {
+            margin-bottom: 1.5rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-primary);
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-secondary);
+        }
+
+        .filters {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+
+        .filter-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: var(--bg-primary);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: var(--bg-tertiary);
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+
+        tr:hover {
+            background: var(--bg-tertiary);
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .plugin-name {
+            font-weight: 500;
+        }
+
+        .plugin-author {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .nexus-link {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .nexus-link:hover {
+            text-decoration: underline;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-verified {
+            background: rgba(63, 185, 80, 0.15);
+            color: var(--green);
+        }
+
+        .status-pending {
+            background: rgba(210, 153, 34, 0.15);
+            color: var(--yellow);
+        }
+
+        .category-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            background: var(--bg-tertiary);
+            color: var(--text-secondary);
+            text-transform: uppercase;
+        }
+
+        .hash {
+            font-family: 'SF Mono', Consolas, monospace;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            word-break: break-all;
+        }
+
+        .file-list {
+            font-size: 0.85rem;
+        }
+
+        .file-item {
+            margin-bottom: 0.25rem;
+        }
+
+        .file-name {
+            color: var(--text-primary);
+        }
+
+        .no-files {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .stats {
+                gap: 1rem;
+            }
+
+            .stat {
+                padding: 0.75rem 1rem;
+            }
+
+            th, td {
+                padding: 0.5rem;
+                font-size: 0.85rem;
+            }
+
+            .hide-mobile {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛡️ Skyrim Sentinel</h1>
+            <p class="subtitle">Golden Set Database — Verified SKSE Plugin Hashes</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value" id="total-plugins">—</div>
+                    <div class="stat-label">Total Plugins</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="verified-files">—</div>
+                    <div class="stat-label">Verified DLLs</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="last-updated">—</div>
+                    <div class="stat-label">Last Updated</div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="search-container">
+                <input type="text" class="search-input" id="search" placeholder="Search plugins, authors, or filenames...">
+            </div>
+
+            <div class="filters" id="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+            </div>
+
+            <div id="table-container">
+                <div class="loading">Loading Golden Set data...</div>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                <a href="https://github.com/seanpayomo/skyrim-sentinel" target="_blank">GitHub Repository</a>
+                ·
+                Data sourced from <a href="https://www.nexusmods.com/skyrimspecialedition" target="_blank">Nexus Mods</a>
+            </p>
+            <p style="margin-top: 0.5rem;">MIT License © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        let allPlugins = [];
+        let activeFilter = 'all';
+
+        async function loadData() {
+            try {
+                // Fetch from the tools folder (relative path for GitHub Pages)
+                const response = await fetch('golden_set.json');
+                const data = await response.json();
+                
+                allPlugins = data.plugins;
+                
+                // Update stats
+                document.getElementById('total-plugins').textContent = allPlugins.length;
+                
+                const verifiedFiles = allPlugins.reduce((count, plugin) => 
+                    count + plugin.files.filter(f => f.sha256).length, 0);
+                document.getElementById('verified-files').textContent = verifiedFiles;
+                
+                document.getElementById('last-updated').textContent = data.version || 'Unknown';
+
+                // Build category filters
+                buildFilters();
+                
+                // Render table
+                renderTable(allPlugins);
+            } catch (error) {
+                document.getElementById('table-container').innerHTML = `
+                    <div class="empty-state">
+                        <p>Failed to load Golden Set data.</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.85rem;">${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        function buildFilters() {
+            const categories = [...new Set(allPlugins.map(p => p.category).filter(Boolean))];
+            const filtersEl = document.getElementById('filters');
+            
+            categories.sort().forEach(category => {
+                const btn = document.createElement('button');
+                btn.className = 'filter-btn';
+                btn.dataset.filter = category;
+                btn.textContent = category;
+                btn.addEventListener('click', () => setFilter(category));
+                filtersEl.appendChild(btn);
+            });
+        }
+
+        function setFilter(filter) {
+            activeFilter = filter;
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.filter === filter);
+            });
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            
+            let filtered = allPlugins;
+            
+            // Apply category filter
+            if (activeFilter !== 'all') {
+                filtered = filtered.filter(p => p.category === activeFilter);
+            }
+            
+            // Apply search filter
+            if (searchTerm) {
+                filtered = filtered.filter(p => 
+                    p.name.toLowerCase().includes(searchTerm) ||
+                    (p.author && p.author.toLowerCase().includes(searchTerm)) ||
+                    p.files.some(f => f.filename.toLowerCase().includes(searchTerm))
+                );
+            }
+            
+            renderTable(filtered);
+        }
+
+        function renderTable(plugins) {
+            if (plugins.length === 0) {
+                document.getElementById('table-container').innerHTML = `
+                    <div class="empty-state">No plugins found matching your criteria.</div>
+                `;
+                return;
+            }
+
+            const html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Plugin</th>
+                            <th class="hide-mobile">Category</th>
+                            <th>Files</th>
+                            <th class="hide-mobile">Nexus</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${plugins.map(plugin => `
+                            <tr>
+                                <td>
+                                    <div class="plugin-name">${escapeHtml(plugin.name)}</div>
+                                    <div class="plugin-author">by ${escapeHtml(plugin.author || 'Unknown')}</div>
+                                </td>
+                                <td class="hide-mobile">
+                                    ${plugin.category ? `<span class="category-badge">${escapeHtml(plugin.category)}</span>` : '—'}
+                                </td>
+                                <td>
+                                    <div class="file-list">
+                                        ${plugin.files.length > 0 ? plugin.files.map(file => `
+                                            <div class="file-item">
+                                                <span class="file-name">${escapeHtml(file.filename)}</span>
+                                                <span class="status status-${file.status || 'verified'}">${file.status || 'verified'}</span>
+                                                ${file.sha256 ? `<div class="hash" title="${file.sha256}">${file.sha256.slice(0, 16)}...</div>` : ''}
+                                            </div>
+                                        `).join('') : '<span class="no-files">No DLLs verified yet</span>'}
+                                    </div>
+                                </td>
+                                <td class="hide-mobile">
+                                    <a class="nexus-link" href="https://www.nexusmods.com/skyrimspecialedition/mods/${plugin.nexusId}" target="_blank" rel="noopener">
+                                        #${plugin.nexusId}
+                                    </a>
+                                </td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+            
+            document.getElementById('table-container').innerHTML = html;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Event listeners
+        document.getElementById('search').addEventListener('input', applyFilters);
+        document.querySelector('[data-filter="all"]').addEventListener('click', () => setFilter('all'));
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>

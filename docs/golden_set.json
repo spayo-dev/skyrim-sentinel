@@ -1,0 +1,1850 @@
+{
+  "$schema": "./golden_set_schema.json",
+  "version": "2026.01.18",
+  "generated": "2026-01-11T00:00:00Z",
+  "description": "Curated manifest of verified SKSE plugins for Skyrim Sentinel",
+  "plugins": [
+    {
+      "name": "Address Library for SKSE Plugins",
+      "nexusId": 32444,
+      "author": "meh321",
+      "category": "core",
+      "description": "Compatibility layer enabling SKSE plugins to work across game versions",
+      "files": []
+    },
+    {
+      "name": "SSE Engine Fixes",
+      "nexusId": 17230,
+      "author": "aers",
+      "category": "core",
+      "description": "Fixes various engine bugs and issues in Skyrim SE",
+      "files": [
+        {
+          "filename": "EngineFixes.dll",
+          "sha256": "44f679d547244fb60bd10f9e705ba1d0ee421e4951ebc211070fe5240b54f14a",
+          "size_bytes": 2439680,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "SkyUI",
+      "nexusId": 12604,
+      "author": "SkyUI Team",
+      "category": "ui",
+      "description": "Elegant, PC-friendly interface with MCM support",
+      "files": []
+    },
+    {
+      "name": "powerofthree's Tweaks",
+      "nexusId": 51073,
+      "author": "powerofthree",
+      "category": "fixes",
+      "description": "Collection of engine-level fixes and improvements",
+      "files": [
+        {
+          "filename": "po3_Tweaks.dll",
+          "sha256": "1aff9914d9685c16f7dce11882186ca5dd15402c37159bc45ce1584ab3475e70",
+          "size_bytes": 1041920,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "powerofthree's Papyrus Extender",
+      "nexusId": 22854,
+      "author": "powerofthree",
+      "category": "framework",
+      "description": "Extends Papyrus scripting with new functions",
+      "files": [
+        {
+          "filename": "po3_PapyrusExtender.dll",
+          "sha256": "5c39fa85d96426be57cd618dc437aed4ea59a19b4f357caae273021ac004d20a",
+          "size_bytes": 3076608,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Bug Fixes SSE",
+      "nexusId": 33261,
+      "author": "meh321",
+      "category": "fixes",
+      "description": "Fixes for various game bugs not addressed by engine fixes",
+      "files": [
+        {
+          "filename": "BugFixesSSE.dll",
+          "sha256": "24c1c73500c34950ec89240aa980d774308c914a632044c08d33e261cee7fb79",
+          "size_bytes": 569344,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "ConsoleUtilSSE",
+      "nexusId": 24858,
+      "author": "Ryan",
+      "category": "utility",
+      "description": "Extended console functionality for modders",
+      "files": [
+        {
+          "filename": "ConsoleUtilSSE.dll",
+          "sha256": "ca94ffae9e3860c73c70b1cfc7dfc4cf05ee5d404fdd7b82ec5eb1fdd65761ee",
+          "size_bytes": 1398784,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "More Informative Console",
+      "nexusId": 19250,
+      "author": "Linthar",
+      "category": "utility",
+      "description": "Enhanced console with detailed object information",
+      "files": [
+        {
+          "filename": "MoreInformativeConsole.dll",
+          "sha256": "b655c706cfdb07973ec398c73bd35d85aa276ffb903f87b3674269e504db16ba",
+          "size_bytes": 1154048,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "MCM Helper",
+      "nexusId": 53000,
+      "author": "Parapets",
+      "category": "framework",
+      "description": "Simplifies Mod Configuration Menu creation",
+      "files": [
+        {
+          "filename": "MCMHelper.dll",
+          "sha256": "059a72858477a109dba44852fe19188ba4aca6b49b1b71863669dc00c4b7e037",
+          "size_bytes": 882688,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Scaleform Translation++",
+      "nexusId": 22603,
+      "author": "Ryan",
+      "category": "utility",
+      "description": "Translation framework for Scaleform-based mods",
+      "files": [
+        {
+          "filename": "ScaleformTranslationPP.dll",
+          "sha256": "ea1c97674d5943365cb413ea892a923910bb0f7f62dfd947fc137548d3e8cc35",
+          "size_bytes": 1091072,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "ENB Helper SE",
+      "nexusId": 23174,
+      "author": "aers",
+      "category": "graphics",
+      "description": "Enables advanced ENB features and weather detection",
+      "files": [
+        {
+          "filename": "ENBHelperSE.dll",
+          "sha256": "cfb1650eb592b488c8d8e89c98c5ef1bcea785e466ae4f21374990c6785ca62e",
+          "size_bytes": 573440,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Dynamic Animation Replacer",
+      "nexusId": 33746,
+      "author": "Felisky",
+      "category": "animation",
+      "description": "Condition-based animation replacement framework",
+      "files": []
+    },
+    {
+      "name": "RaceMenu",
+      "nexusId": 19080,
+      "author": "Expired",
+      "category": "ui",
+      "description": "Extended character customization interface",
+      "files": [
+        {
+          "filename": "skee64.dll",
+          "sha256": "a81e1f8a5fa86f9fda35602dae38e74fcd5c2f57338e702059ce1584991a089b",
+          "size_bytes": 2491392,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Scrambled Bugs",
+      "nexusId": 43532,
+      "author": "KernalsEgg",
+      "category": "fixes",
+      "description": "Additional engine bug fixes",
+      "files": [
+        {
+          "filename": "ScrambledBugs.dll",
+          "sha256": "dd8b458e623fe9362a0e0acaa32223dad5a25a798019305dc8ffa987f9d6b969",
+          "size_bytes": 621568,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Actor Limit Fix",
+      "nexusId": 32349,
+      "author": "meh321",
+      "category": "fixes",
+      "description": "Prevents crashes from actor count limits",
+      "files": [
+        {
+          "filename": "ActorLimitFix.dll",
+          "sha256": "b28de705613aceefd16d44bfc4fa21288b644be5a7decaf9c5603690b1d89a23",
+          "size_bytes": 563712,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Better Jumping SE",
+      "nexusId": 18967,
+      "author": "meh321",
+      "category": "gameplay",
+      "description": "Enables jumping while sprinting and directional jumping",
+      "files": []
+    },
+    {
+      "name": "JContainers SE",
+      "nexusId": 16495,
+      "author": "silvericed",
+      "category": "framework",
+      "description": "JSON-based data storage for Papyrus scripts",
+      "files": [
+        {
+          "filename": "JContainers64.dll",
+          "sha256": "3fcd32150c68f1691fe225a76f44911d35cfd0211257190484d1be790de23dac",
+          "size_bytes": 2931712,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Fuz Ro D-oh",
+      "nexusId": 15109,
+      "author": "shadeMe",
+      "category": "audio",
+      "description": "Enables lip-sync for unvoiced dialogue",
+      "files": []
+    },
+    {
+      "name": "Spell Perk Item Distributor",
+      "nexusId": 36869,
+      "author": "powerofthree",
+      "category": "framework",
+      "description": "Distributes spells, perks, and items to NPCs dynamically",
+      "files": [
+        {
+          "filename": "po3_SpellPerkItemDistributor.dll",
+          "sha256": "3854e94f4b8934469b646af0c2df04cb813a1ac88dd0b58fcd361b20bb0bf532",
+          "size_bytes": 1856512,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Improved Camera SE",
+      "nexusId": 25903,
+      "author": "ArranzCNL",
+      "category": "camera",
+      "description": "True first-person body and improved camera control",
+      "files": [
+        {
+          "filename": "ImprovedCameraSE.dll",
+          "sha256": "16628f90355fbeb60ab174a09dcc314afc5546cb9cbecce08a239d01b7ad24c9",
+          "size_bytes": 1446400,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "moreHUD SE",
+      "nexusId": 12688,
+      "author": "Ahzaab",
+      "category": "ui",
+      "description": "Additional HUD elements for item and enemy info",
+      "files": []
+    },
+    {
+      "name": "TrueHUD",
+      "nexusId": 62775,
+      "author": "Ersh",
+      "category": "ui",
+      "description": "Modern health bars and target info framework",
+      "files": [
+        {
+          "filename": "TrueHUD.dll",
+          "sha256": "a7eec5e7e6997e04b158fa3add1e326682ee9720da98c5758c4e626bdb705f01",
+          "size_bytes": 759296,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Keyword Item Distributor",
+      "nexusId": 55728,
+      "author": "powerofthree",
+      "category": "framework",
+      "description": "Distributes keywords to items dynamically",
+      "files": [
+        {
+          "filename": "po3_KeywordItemDistributor.dll",
+          "sha256": "e7526b84193e04cab0b73735698311a36c0851c3726c7ef6cf57e2c6aa2065ce",
+          "size_bytes": 1623040,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Base Object Swapper",
+      "nexusId": 60805,
+      "author": "powerofthree",
+      "category": "framework",
+      "description": "Swaps base objects dynamically at runtime",
+      "files": [
+        {
+          "filename": "po3_BaseObjectSwapper.dll",
+          "sha256": "998218f12588641858af160c42e12455d9064a1b5adfa924a8d8245a37991029",
+          "size_bytes": 1319936,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Backported Extended ESL Support",
+      "nexusId": 106441,
+      "author": "Nukem",
+      "category": "core",
+      "description": "Enables extended ESL record limits on older game versions",
+      "files": []
+    },
+    {
+      "name": "Open Animation Replacer",
+      "nexusId": 92109,
+      "author": "Felisky",
+      "category": "animation",
+      "description": "Modern condition-based animation replacement framework",
+      "files": [
+        {
+          "filename": "OpenAnimationReplacer.dll",
+          "sha256": "a908eca3a068c3ea67edc3495e8baa80038c3db345b7e1a051c80b9ad093a1b7",
+          "size_bytes": 3443712,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Nemesis Unlimited Behavior Engine",
+      "nexusId": 60033,
+      "author": "Shikyo Kira",
+      "category": "animation",
+      "description": "Animation behavior generation framework",
+      "files": []
+    },
+    {
+      "name": "XP32 Maximum Skeleton Special Extended",
+      "nexusId": 1988,
+      "author": "Groovtama",
+      "category": "animation",
+      "description": "Extended skeleton with extra bones for animations and physics",
+      "files": []
+    },
+    {
+      "name": "Payload Interpreter",
+      "nexusId": 65089,
+      "author": "Ersh",
+      "category": "animation",
+      "description": "Dynamic payload injection framework for animations",
+      "files": []
+    },
+    {
+      "name": "Animation Motion Revolution",
+      "nexusId": 50258,
+      "author": "alexsylex",
+      "category": "animation",
+      "description": "Fixes animation-movement synchronization issues",
+      "files": [
+        {
+          "filename": "AnimationMotionRevolution.dll",
+          "sha256": "359f9389e1093062b49b3595277c2289052bc5900a9ecd109c715e50f0e8d06f",
+          "size_bytes": 1467904,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "True Directional Movement",
+      "nexusId": 51614,
+      "author": "Ersh",
+      "category": "combat",
+      "description": "360-degree movement and target lock-on system",
+      "files": [
+        {
+          "filename": "TrueDirectionalMovement.dll",
+          "sha256": "f836074720cca5594858dd83f81a37929290644270fce34d3f3ab5fa1367259f",
+          "size_bytes": 1014272,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358309+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Precision - Accurate Melee Collisions",
+      "nexusId": 72347,
+      "author": "Ersh",
+      "category": "combat",
+      "description": "Accurate melee collision detection and hitboxes",
+      "files": []
+    },
+    {
+      "name": "Valhalla Combat",
+      "nexusId": 64741,
+      "author": "Jeir",
+      "category": "combat",
+      "description": "Script-free combat overhaul with timed blocking and stamina management",
+      "files": [
+        {
+          "filename": "valhallaCombat.dll",
+          "sha256": "b6f3203b5e969c284c55c9f3daa0eab69ad5f2d411514a86f2d257a2662b6ccf",
+          "size_bytes": 596480,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.357767+00:00"
+        }
+      ]
+    },
+    {
+      "name": "SCAR - Skyrim Combos AI Revolution",
+      "nexusId": 72014,
+      "author": "NickNak",
+      "category": "combat",
+      "description": "Combo-based AI combat enhancement",
+      "files": []
+    },
+    {
+      "name": "POISE - Stagger Overhaul SKSE",
+      "nexusId": 72653,
+      "author": "Jeir",
+      "category": "combat",
+      "description": "Custom stagger animations and poise system",
+      "files": []
+    },
+    {
+      "name": "Mortal Enemies SE",
+      "nexusId": 4881,
+      "author": "Sky",
+      "category": "combat",
+      "description": "Attack commitment and tracking rebalance",
+      "files": []
+    },
+    {
+      "name": "Ultimate Dodge Mod",
+      "nexusId": 33049,
+      "author": "ShikyoKira",
+      "category": "combat",
+      "description": "Scripted dodge mechanics with iframes",
+      "files": []
+    },
+    {
+      "name": "One Click Power Attack NG",
+      "nexusId": 96695,
+      "author": "GyroFibre",
+      "category": "combat",
+      "description": "Simplified power attack input",
+      "files": []
+    },
+    {
+      "name": "Attack Behavior Revamp",
+      "nexusId": 45378,
+      "author": "NickNak",
+      "category": "combat",
+      "description": "Combat behavior improvements for smoother attacks",
+      "files": []
+    },
+    {
+      "name": "Stagger On Hit SKSE",
+      "nexusId": 52498,
+      "author": "Jeir",
+      "category": "combat",
+      "description": "Reactive stagger system on weapon hits",
+      "files": []
+    },
+    {
+      "name": "FSMP - Faster HDT-SMP",
+      "nexusId": 57339,
+      "author": "aers",
+      "category": "physics",
+      "description": "High-performance physics simulation for body and cloth",
+      "files": [
+        {
+          "filename": "hdtSMP64.dll",
+          "sha256": "ceb5b009191bb795f2e1d7d0c49deef1436cd87b5082ee9f4ec6a98b22a0a582",
+          "size_bytes": 6239744,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "CBPC - Physics with Collisions",
+      "nexusId": 21224,
+      "author": "vsv",
+      "category": "physics",
+      "description": "Body physics with collision detection",
+      "files": [
+        {
+          "filename": "cbp.dll",
+          "sha256": "e1976ae08f3158eb9ecdf0df803844a5c4518705a9c7441b87bee0055103b2f1",
+          "size_bytes": 1100288,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "3BA - CBBE 3BBB Body Amazing",
+      "nexusId": 30174,
+      "author": "Acro",
+      "category": "physics",
+      "description": "CBBE 3BA body with physics support",
+      "files": []
+    },
+    {
+      "name": ".NET Script Framework",
+      "nexusId": 21294,
+      "author": "meh321",
+      "category": "utility",
+      "description": "Native code hook framework for advanced modding",
+      "files": []
+    },
+    {
+      "name": "SSE Display Tweaks",
+      "nexusId": 34705,
+      "author": "SLuckyD",
+      "category": "utility",
+      "description": "Display, framerate, and input adjustments",
+      "files": [
+        {
+          "filename": "SSEDisplayTweaks.dll",
+          "sha256": "ae83f3a73359e45de98a39596ba9d96f416ae15f7cd6925dc347d484b9faf5bb",
+          "size_bytes": 577536,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Crash Logger SSE AE VR",
+      "nexusId": 59818,
+      "author": "Nightfallstorm",
+      "category": "utility",
+      "description": "Crash log generation with PDB support",
+      "files": [
+        {
+          "filename": "CrashLogger.dll",
+          "sha256": "b556270889208a00ae20e0a68482178bafc56784fbfe67b9e9e52f74e056cf31",
+          "size_bytes": 2836480,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "PapyrusUtil SE",
+      "nexusId": 13048,
+      "author": "exiledviper",
+      "category": "framework",
+      "description": "Modder scripting utility functions",
+      "files": [
+        {
+          "filename": "PapyrusUtil.dll",
+          "sha256": "2fb155b8508e085616c5f72cb8fd2368275557dc56988300b92e540930d1f444",
+          "size_bytes": 1436160,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359364+00:00"
+        }
+      ]
+    },
+    {
+      "name": "FileAccess Interface for Skyrim SE",
+      "nexusId": 982,
+      "author": "Expired",
+      "category": "utility",
+      "description": "File system access from Papyrus scripts",
+      "files": []
+    },
+    {
+      "name": "SSE FPS Stabilizer",
+      "nexusId": 38438,
+      "author": "Jeir",
+      "category": "utility",
+      "description": "Dynamic framerate stabilization",
+      "files": []
+    },
+    {
+      "name": "QUI",
+      "nexusId": 65343,
+      "author": "VersuchDrei",
+      "category": "ui",
+      "description": "Quick user interface framework",
+      "files": []
+    },
+    {
+      "name": "dMenu",
+      "nexusId": 97221,
+      "author": "Jeir",
+      "category": "utility",
+      "description": "Debug menu framework for development",
+      "files": []
+    },
+    {
+      "name": "AutoBody SE",
+      "nexusId": 61321,
+      "author": "VersuchDrei",
+      "category": "utility",
+      "description": "Automated body assignment based on conditions",
+      "files": []
+    },
+    {
+      "name": "SmoothCam",
+      "nexusId": 41252,
+      "author": "mwilsnd",
+      "category": "camera",
+      "description": "Modern third-person camera with smooth transitions",
+      "files": [
+        {
+          "filename": "SmoothCam.dll",
+          "sha256": "8e00fa14b51980fb752c22f1c65d0aad3b3ba3f333e8f6f1a87d040cd85d53ae",
+          "size_bytes": 1453056,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358586+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Alternate Conversation Camera",
+      "nexusId": 21220,
+      "author": "Ciathyza",
+      "category": "camera",
+      "description": "Dialogue camera improvements and positioning",
+      "files": []
+    },
+    {
+      "name": "Immersive First Person View",
+      "nexusId": 22306,
+      "author": "meh321",
+      "category": "camera",
+      "description": "True first person body visibility",
+      "files": []
+    },
+    {
+      "name": "OStim Standalone",
+      "nexusId": 98163,
+      "author": "Sairion",
+      "category": "adult",
+      "description": "Advanced adult animation framework",
+      "files": []
+    },
+    {
+      "name": "Custom Skills Framework",
+      "nexusId": 41780,
+      "author": "Parapets",
+      "category": "framework",
+      "description": "Custom skill tree creation framework",
+      "files": []
+    },
+    {
+      "name": "Flower Girls SE",
+      "nexusId": 74329,
+      "author": "xvector",
+      "category": "adult",
+      "description": "Lightweight intimacy system",
+      "files": []
+    },
+    {
+      "name": "SexLab Framework SE",
+      "nexusId": 100001,
+      "author": "Ashal",
+      "category": "adult",
+      "description": "Core adult animation framework (Loverslab hosted)",
+      "files": []
+    },
+    {
+      "name": "SLAL - SexLab Animation Loader",
+      "nexusId": 100002,
+      "author": "nixos",
+      "category": "adult",
+      "description": "Animation pack loading system for SexLab",
+      "files": []
+    },
+    {
+      "name": "OSA - Skyrim Ascendancy Engine",
+      "nexusId": 100003,
+      "author": "CEO",
+      "category": "adult",
+      "description": "Animation scene orchestration engine",
+      "files": []
+    },
+    {
+      "name": "Community Shaders",
+      "nexusId": 86492,
+      "author": "doodlum",
+      "category": "graphics",
+      "description": "Community-driven shader framework",
+      "files": [
+        {
+          "filename": "CommunityShaders.dll",
+          "sha256": "f87781f0c69822fed533005819db6ab47d75f4f4bb08dabbe5707b96a8928ab4",
+          "size_bytes": 12496896,
+          "status": "verified"
+        },
+        {
+          "filename": "renderdoc.dll",
+          "sha256": "d76b061eba384cb376daf14737d13a8d906037e20665d26ce38523088797798a",
+          "size_bytes": 26004624,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360887+00:00"
+        }
+      ]
+    },
+    {
+      "name": "QuickLoot IE",
+      "nexusId": 120075,
+      "author": "ilian53",
+      "category": "ui",
+      "description": "Quick loot menu fork with improvements",
+      "files": [
+        {
+          "filename": "QuickLootIE.dll",
+          "sha256": "79fbf07653934dfe2e6bcb13c01d1563fe4c698f9854f1a0634b505bc11be733",
+          "size_bytes": 2568192,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Immersive Equipment Displays",
+      "nexusId": 62001,
+      "author": "SlavicPotato",
+      "category": "ui",
+      "description": "Display weapons and equipment on character",
+      "files": [
+        {
+          "filename": "ImmersiveEquipmentDisplays.dll",
+          "sha256": "e12da86be6c3412e1ad91ef7c12d51067f19e023a8d4ef8ec703ee43acedc38c",
+          "size_bytes": 5662720,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Infinity UI",
+      "nexusId": 74483,
+      "author": "Jeir",
+      "category": "ui",
+      "description": "Modular UI framework",
+      "files": [
+        {
+          "filename": "InfinityUI.dll",
+          "sha256": "b4571cbd90c2d66ed0708353e83972282022379d6239bdbd4c40254bbb22e80d",
+          "size_bytes": 1406464,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "SkyPatcher",
+      "nexusId": 106659,
+      "author": "Jeir",
+      "category": "utility",
+      "description": "Runtime game data patcher",
+      "files": [
+        {
+          "filename": "SkyPatcher.dll",
+          "sha256": "cc8664bbfae35a69eb729f2e95c95c758d846ca60e18f0ae254f8cb857fbe75c",
+          "size_bytes": 2275328,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Compass Navigation Overhaul",
+      "nexusId": 74484,
+      "author": "Jeir",
+      "category": "ui",
+      "description": "Enhanced compass and navigation system",
+      "files": [
+        {
+          "filename": "CompassNavigationOverhaul.dll",
+          "sha256": "4449723b381fa111fa8f21bfde4e899dce53001308f0cc1920c55033bf0f51ba",
+          "size_bytes": 1880576,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "PrivateProfileRedirector SE",
+      "nexusId": 18860,
+      "author": "Kerber",
+      "category": "utility",
+      "description": "Faster game start via INI file caching",
+      "files": [
+        {
+          "filename": "PrivateProfileRedirector.dll",
+          "sha256": "306914715c556fb650e84e9f97bc410fb3545c36d3146f7009ea779740323217",
+          "size_bytes": 5853184,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Simple Dual Sheath",
+      "nexusId": 50049,
+      "author": "ershin",
+      "category": "gameplay",
+      "description": "Display dual sheathed weapons on back",
+      "files": [
+        {
+          "filename": "SimpleDualSheath.dll",
+          "sha256": "99adef364e4c107711e6f0925bf4b1547a377168a832d12b28cd0e3d7283f86f",
+          "size_bytes": 535040,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Dismembering Framework",
+      "nexusId": 126203,
+      "author": "Jeir",
+      "category": "combat",
+      "description": "Enemy limb dismemberment system",
+      "files": [
+        {
+          "filename": "DismemberingFramework.dll",
+          "sha256": "447534bcb80d3136ef5046f6cbd80a8be1aca5cb9c265bdff7e40608c7bd973f",
+          "size_bytes": 2699776,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "FormList Manipulator",
+      "nexusId": 74037,
+      "author": "powerofthree",
+      "category": "framework",
+      "description": "Dynamic formlist modification at runtime",
+      "files": [
+        {
+          "filename": "FormListManipulator.dll",
+          "sha256": "82a3277c6c03e6b4d86c367637ba7fde9d8c9ec46cdf9ba1b0f59277b0c9928e",
+          "size_bytes": 961024,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Sound Record Distributor",
+      "nexusId": 77815,
+      "author": "powerofthree",
+      "category": "framework",
+      "description": "Distribute sound records dynamically",
+      "files": [
+        {
+          "filename": "SoundRecordDistributor.dll",
+          "sha256": "e7bd40d5b070c08b120caf364124e0551fd8f983f135c4c47dcdd0508b29f41e",
+          "size_bytes": 891904,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Inventory Interface Information Injector",
+      "nexusId": 85702,
+      "author": "Jeir",
+      "category": "ui",
+      "description": "Inject custom info into inventory UI",
+      "files": [
+        {
+          "filename": "InventoryInjector.dll",
+          "sha256": "f4346501d4a793635c05d970cc87e91253a5f5ce79ddd197ee24480423b934ca",
+          "size_bytes": 650752,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Simple Beheading NG",
+      "nexusId": 103198,
+      "author": "Jeir",
+      "category": "combat",
+      "description": "Decapitation system for executions",
+      "files": [
+        {
+          "filename": "SimpleBeheading.dll",
+          "sha256": "01cf1acefcda9d6d8838b1a87bf6e628ab7a28a008ad7fa245ff227b683770b2",
+          "size_bytes": 1943040,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Papyrus Tweaks NG",
+      "nexusId": 77779,
+      "author": "fireundubh",
+      "category": "utility",
+      "description": "Papyrus script performance tweaks",
+      "files": [
+        {
+          "filename": "PapyrusTweaks.dll",
+          "sha256": "596fcef3ecbed1cc9b7433306ecda503bd45cff033a0da00dcd572e9c2ccbb8d",
+          "size_bytes": 1016832,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Paired Animation Improvements",
+      "nexusId": 99621,
+      "author": "ershin",
+      "category": "animation",
+      "description": "Fixes and improvements for paired animations",
+      "files": [
+        {
+          "filename": "PairedAnimationImprovements.dll",
+          "sha256": "448f3b20097d7c38bcdc0939b98a1ec187efae99ac516bbeab349c59d32e4f85",
+          "size_bytes": 419328,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "moreHUD Inventory Edition",
+      "nexusId": 18619,
+      "author": "Ahzaab",
+      "category": "ui",
+      "description": "Additional HUD info for inventory",
+      "files": [
+        {
+          "filename": "AHZmoreHUDInventory.dll",
+          "sha256": "55128b96eb4078cbf8e7c26ab4561eb65c7001d0127df46ceab30cc4feb0d58e",
+          "size_bytes": 440320,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "ConsoleUtilSSE NG",
+      "nexusId": 76649,
+      "author": "shad0wshayd3",
+      "category": "utility",
+      "description": "Extended console utility functions",
+      "files": [
+        {
+          "filename": "ConsoleUtilSSE.dll",
+          "sha256": "ca94ffae9e3860c73c70b1cfc7dfc4cf05ee5d404fdd7b82ec5eb1fdd65761ee",
+          "size_bytes": 1398784,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Better Third Person Selection",
+      "nexusId": 64339,
+      "author": "Jeir",
+      "category": "gameplay",
+      "description": "Improved object selection in third person",
+      "files": [
+        {
+          "filename": "BetterThirdPersonSelection.dll",
+          "sha256": "ce24158a1aac15e7984d4280cff5a71b9ff75290df8803d7c03c5042454d627c",
+          "size_bytes": 2731008,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Animation Queue Fix",
+      "nexusId": 82395,
+      "author": "ershin",
+      "category": "fixes",
+      "description": "Fixes animation queue overflow issues",
+      "files": [
+        {
+          "filename": "AnimationQueueFix.dll",
+          "sha256": "4543f48828ba0d278a0178f7eb7af410ca7831a117221c0115e3db37a3e10f42",
+          "size_bytes": 380928,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Recursion Monitor",
+      "nexusId": 76867,
+      "author": "Umgak",
+      "category": "utility",
+      "description": "Monitors and fixes script recursion issues",
+      "files": [
+        {
+          "filename": "RecursionFPSFix.dll",
+          "sha256": "f63324b928bf633624f34f1b4a5907c7fa84c7971eebcab471104ad2dbcc1baf",
+          "size_bytes": 864768,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "ConsolePlusPlus",
+      "nexusId": 77945,
+      "author": "powerofthree",
+      "category": "utility",
+      "description": "Enhanced console commands",
+      "files": [
+        {
+          "filename": "po3_ConsolePlusPlus.dll",
+          "sha256": "c1efcaa80cf00a42a0f9dabf82378c8512c4472f1fbfe0cae73fc384363cb27a",
+          "size_bytes": 650752,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "MFG Fix NG",
+      "nexusId": 93365,
+      "author": "ershin",
+      "category": "fixes",
+      "description": "Facial expression fix for conversations",
+      "files": [
+        {
+          "filename": "mfgfix.dll",
+          "sha256": "af356bf1096d2a6b3e17bfef143ee15d8eda738f2539c33f46a57fd8625ac18b",
+          "size_bytes": 982016,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Contextual Crosshair",
+      "nexusId": 63980,
+      "author": "Jeir",
+      "category": "ui",
+      "description": "Dynamic crosshair based on context",
+      "files": [
+        {
+          "filename": "ContextualCrosshair.dll",
+          "sha256": "bdd42a43bd33f8446214b009f2b0cb216bdb510d159fc9967663d9916512f9c2",
+          "size_bytes": 607232,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Grass Sampler Fix",
+      "nexusId": 106080,
+      "author": "aers",
+      "category": "fixes",
+      "description": "Fixes grass rendering issues",
+      "files": [
+        {
+          "filename": "GrassSamplerFix.dll",
+          "sha256": "5959091aaba85bdcb75949034e31d638f42035e9d9d657f45ac90219449edda4",
+          "size_bytes": 531968,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "HeadpartWhitelist",
+      "nexusId": 111275,
+      "author": "powerofthree",
+      "category": "utility",
+      "description": "Control headpart availability per race",
+      "files": [
+        {
+          "filename": "po3_HeadpartWhitelist.dll",
+          "sha256": "0892545eefb14f9da822daaa1ee3d78ca62de8a4ffbf197076c6899ea18a6784",
+          "size_bytes": 610304,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "PhotoMode",
+      "nexusId": 91701,
+      "author": "powerofthree",
+      "category": "utility",
+      "description": "In-game photo mode with camera controls",
+      "files": [
+        {
+          "filename": "po3_PhotoMode.dll",
+          "sha256": "ff7458faeaf102037c199e3fe8e34d33429e88f76d32983682d85608d4ef8d9d",
+          "size_bytes": 3954176,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Modex",
+      "nexusId": 106042,
+      "author": "Jeir",
+      "category": "utility",
+      "description": "Mod explorer and item spawning menu",
+      "files": [
+        {
+          "filename": "Modex.dll",
+          "sha256": "56884c64b070261a3986906d089dad6e221bf70e62edd232d22abcb1a2f2de77",
+          "size_bytes": 3322880,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "ENB Input Disabler",
+      "nexusId": 62796,
+      "author": "Jeir",
+      "category": "utility",
+      "description": "Disables input when ENB menu is open",
+      "files": [
+        {
+          "filename": "ENBInputDisabler.dll",
+          "sha256": "dbfe63dd220aa01132a8cee392ddf975de0f5e1b12fb78a9aaf5c5282df5a385",
+          "size_bytes": 567296,
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "name": "Widescreen Scale Removed for 1-6-1130 and higher",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "WidescreenScaleRemoved.dll",
+          "sha256": "6488d9640232932ce85cf58616dcc1e86aa6392feaf30bc012c1c32229f8427c",
+          "size_bytes": 621568,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.357650+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Upscaling - Community Shaders",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "amd_fidelityfx_framegeneration_dx12.dll",
+          "sha256": "1429c91128d59a20120dd09b189a7e7ddfecf7e7b700d825bce4c4c6e9c0d451",
+          "size_bytes": 1090832,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.357819+00:00"
+        },
+        {
+          "filename": "amd_fidelityfx_loader_dx12.dll",
+          "sha256": "11633127b050ec02e147987713900f403056147df529851b1388f987897d5b0e",
+          "size_bytes": 24840,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.357881+00:00"
+        },
+        {
+          "filename": "nvngx_dlss.dll",
+          "sha256": "e88a27b9629c1cd3a51bf25c605def1798c44d038267c520830e23d5959c985b",
+          "size_bytes": 29981808,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.357943+00:00"
+        },
+        {
+          "filename": "sl.common.dll",
+          "sha256": "b015702b768e4fa94ab16a4c745902513d60a438f5e0350ddd6899d542365483",
+          "size_bytes": 673240,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.357991+00:00"
+        },
+        {
+          "filename": "sl.dlss.dll",
+          "sha256": "4465fec835b776aeb138ba774bb09631d3521aeef58596cf4db81d83e3d190d3",
+          "size_bytes": 239064,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358047+00:00"
+        },
+        {
+          "filename": "sl.interposer.dll",
+          "sha256": "48f79bdd8eb35d6de0e54a70799a3340913990ef5e0e3a837a4f724008d5685b",
+          "size_bytes": 556000,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358099+00:00"
+        },
+        {
+          "filename": "sl.nis.dll",
+          "sha256": "043dad09393653893e0ebde759e594052bc9fcd19db7e67fc9b026d434cda430",
+          "size_bytes": 966616,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358156+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Tween Menu Overhaul",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "TweenMenuOverhaul.dll",
+          "sha256": "896f9273037c7ffc4cb0febacad3e44109949b03f5de88b70287ffb3092b6eb5",
+          "size_bytes": 740352,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358215+00:00"
+        }
+      ]
+    },
+    {
+      "name": "TrueHUD - HUD Additions",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "TrueHUD.dll",
+          "sha256": "a7eec5e7e6997e04b158fa3add1e326682ee9720da98c5758c4e626bdb705f01",
+          "size_bytes": 759296,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358263+00:00"
+        }
+      ]
+    },
+    {
+      "name": "The New Gentleman",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "TheNewGentleman.dll",
+          "sha256": "2bc4091e7b2ad9e1b328f0f9abe51f10bd14063cee6c8de458e05077dcce504e",
+          "size_bytes": 1236992,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358356+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Target Focus",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "TargetFocus.dll",
+          "sha256": "d1c1af4fce5d258aee54da7a2eea2d5aa039f3e8f54d27a2e6f8d1c1b2ee4689",
+          "size_bytes": 584704,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358409+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Spell Perk Item Distributor (SPID)",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "po3_SpellPerkItemDistributor.dll",
+          "sha256": "3854e94f4b8934469b646af0c2df04cb813a1ac88dd0b58fcd361b20bb0bf532",
+          "size_bytes": 1856512,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358448+00:00"
+        }
+      ]
+    },
+    {
+      "name": "SMP-NPC crash fix",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "SMP-NPC crash fix.dll",
+          "sha256": "f879aa1028d932e3e2d55ba0405858d29abfc24481b4b13fde3749134fd4e252",
+          "size_bytes": 31232,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358505+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Skyrim Character Sheet",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "SkyrimCharacterSheet.dll",
+          "sha256": "6db050e3e73194545780292441a36dc17789f8369547dbdef7beb6da5d3299c2",
+          "size_bytes": 975872,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358624+00:00"
+        }
+      ]
+    },
+    {
+      "name": "SKSE 2.2.6",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "skse64_1_6_1170.dll",
+          "sha256": "c9a2c8a80df6bf2372c5f49468bb2e5ab67786157265b6f29ece9f4eac075d54",
+          "size_bytes": 1173504,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358683+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Simple Beheading - NG",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "SimpleBeheading.dll",
+          "sha256": "01cf1acefcda9d6d8838b1a87bf6e628ab7a28a008ad7fa245ff227b683770b2",
+          "size_bytes": 1943040,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358740+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Show Player In Menus",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "ShowPlayerInMenus.dll",
+          "sha256": "30794b935a0aece3db72edb79d179c51c80c71e0a11e379b6a9179a7e42c2d12",
+          "size_bytes": 412672,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358790+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Scaleform Translation Plus Plus NG",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "ScaleformTranslationPP.dll",
+          "sha256": "ea1c97674d5943365cb413ea892a923910bb0f7f62dfd947fc137548d3e8cc35",
+          "size_bytes": 1091072,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358840+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Save Unbaker",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "po3_SaveUnbaker.dll",
+          "sha256": "a24ce1eb8dea9dc7f4e73a4dbf01dcf96aa4da2befa7ba44b8bdf65cb34ce48a",
+          "size_bytes": 616448,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358884+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Save & Load Accelerator for SKSE Cosaves (S.L.A.C.K.)",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "Save&LoadAcceleratorForSKSECosaves.dll",
+          "sha256": "fd00136cb206fbfca3edc2748b76213bbc46838d4814299e70838ac26bfff58a",
+          "size_bytes": 39424,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.358936+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Sanguine Symphony",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "SanguineSymphony.dll",
+          "sha256": "8da57456a0e723b42dcce7e26f8da154f676f5ac42f4dc913c5cce463f9cc69d",
+          "size_bytes": 2108416,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359003+00:00"
+        }
+      ]
+    },
+    {
+      "name": "RemoveAllItems Freeze Fix",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "RemoveAllItemsFix.dll",
+          "sha256": "0134f3276e17c184fa154913546d02ddb940c526cfb3aa999422d4ec919b8b1f",
+          "size_bytes": 532480,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359055+00:00"
+        }
+      ]
+    },
+    {
+      "name": "QuickLoot IE - A QuickLoot EE Fork",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "QuickLootIE.dll",
+          "sha256": "79fbf07653934dfe2e6bcb13c01d1563fe4c698f9854f1a0634b505bc11be733",
+          "size_bytes": 2568192,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359121+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Quest Journal Overhaul",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "QuestJournalOverhaul.dll",
+          "sha256": "7ff0430e0115ba1439556fc0511aa56599156df91f3dd531aadfaf06cbf519a1",
+          "size_bytes": 777728,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359180+00:00"
+        }
+      ]
+    },
+    {
+      "name": "PrivateProfileRedirector SE - Faster game start (INI file cacher)",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "PrivateProfileRedirector.dll",
+          "sha256": "306914715c556fb650e84e9f97bc410fb3545c36d3146f7009ea779740323217",
+          "size_bytes": 5853184,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359245+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Precision",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "Precision.dll",
+          "sha256": "b4ab4a5a3673324b222b59beed1378abe7982f85af5248d2a7225bc46d0c4f32",
+          "size_bytes": 1881600,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359304+00:00"
+        }
+      ]
+    },
+    {
+      "name": "OxygenMeter2",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "oxygenMeter2.dll",
+          "sha256": "e586b8e1c693e26ab057be5cfc0adffc215207f6253df756035b3e0a85a2b956",
+          "size_bytes": 892928,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359424+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Open Animation Replacer - IED Conditions",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "OpenAnimationReplacer-IEDConditionExtensions.dll",
+          "sha256": "8669298ea4e640e2ac7867ecdf29be59b7e2f56014831b11b99a14bdb5b3b698",
+          "size_bytes": 1112064,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359479+00:00"
+        }
+      ]
+    },
+    {
+      "name": "NPC AI Process Position Fix - NG",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "MaxsuAIProcessFix.dll",
+          "sha256": "1deb4c747d655c5a5410811bd36a2be5033e57c5e271b2aabd2613b2c94109df",
+          "size_bytes": 400384,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359523+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Next-Gen Decapitations",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "NextGenDecapitations.dll",
+          "sha256": "18337a8938d5255f030d296a507ef30ddf81101c2ddddcbf12aa5bbaa92e06fe",
+          "size_bytes": 2218496,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359573+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Native EditorID Fix",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "NativeEditorIDFix.dll",
+          "sha256": "d0398459beaa2186cf39f5512c1de705c0f6c53709610f8daffd5deeb7b79ef3",
+          "size_bytes": 314880,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359618+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Modex - A Mod Explorer Menu (AddItemMenu)",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "Modex.dll",
+          "sha256": "56884c64b070261a3986906d089dad6e221bf70e62edd232d22abcb1a2f2de77",
+          "size_bytes": 3322880,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359673+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Mfg Fix NG",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "mfgfix.dll",
+          "sha256": "af356bf1096d2a6b3e17bfef143ee15d8eda738f2539c33f46a57fd8625ac18b",
+          "size_bytes": 982016,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359724+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Mfg Fix",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "mfgfix.dll",
+          "sha256": "62e025e1f33b3e98acebe865fdeef2970d3f48c8a038504f941e621443a1ebbe",
+          "size_bytes": 435200,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359782+00:00"
+        }
+      ]
+    },
+    {
+      "name": "LeveledList Crash Fix",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "LeveledListCrashPrevention.dll",
+          "sha256": "e50068ccf7c38ea91c6c1f43cfb64086ae0ef36bbb19320f9a2d81eedae1b940",
+          "size_bytes": 834560,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359842+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Inventory Interface Information Injector - I4",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "InventoryInjector.dll",
+          "sha256": "f4346501d4a793635c05d970cc87e91253a5f5ce79ddd197ee24480423b934ca",
+          "size_bytes": 650752,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359904+00:00"
+        }
+      ]
+    },
+    {
+      "name": "FormList Manipulator - FLM",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "FormListManipulator.dll",
+          "sha256": "82a3277c6c03e6b4d86c367637ba7fde9d8c9ec46cdf9ba1b0f59277b0c9928e",
+          "size_bytes": 961024,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.359975+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Faster HDT-SMP",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "hdtSMP64.dll",
+          "sha256": "ceb5b009191bb795f2e1d7d0c49deef1436cd87b5082ee9f4ec6a98b22a0a582",
+          "size_bytes": 6239744,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360031+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Engine Fixes",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "d3dx9_42.dll",
+          "sha256": "cf366987da6237559eb6e113ea717ec21762c9eec3a87d9dc4fa9ddfe7789c26",
+          "size_bytes": 88576,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360093+00:00"
+        },
+        {
+          "filename": "EngineFixes.dll",
+          "sha256": "44f679d547244fb60bd10f9e705ba1d0ee421e4951ebc211070fe5240b54f14a",
+          "size_bytes": 2439680,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360141+00:00"
+        }
+      ]
+    },
+    {
+      "name": "ENB Frame Generation",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "ENBFrameGeneration.dll",
+          "sha256": "cb30670cafe7e277ad2d28fb9a7aafc06bad50ce512cd7991a07ee6aced0e598",
+          "size_bytes": 9393664,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360201+00:00"
+        },
+        {
+          "filename": "amd_fidelityfx_dx12.dll",
+          "sha256": "5672ee4202aa5417e23369d548a140652367494299a7678b42aa5b3395f76ad7",
+          "size_bytes": 6647504,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360251+00:00"
+        }
+      ]
+    },
+    {
+      "name": "ENB Core",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "d3d11.dll",
+          "sha256": "f789adbb281ccb89513969b3eee41e7e9bff80910314dfd39dfbe35841042fb1",
+          "size_bytes": 4575232,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360289+00:00"
+        },
+        {
+          "filename": "d3dcompiler_46e.dll",
+          "sha256": "ff2fffaf99916720914753d10e1db6e364011bb23da143178250cbea7dbfb945",
+          "size_bytes": 3873208,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360336+00:00"
+        }
+      ]
+    },
+    {
+      "name": "DXVK",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "d3d11.dll",
+          "sha256": "e9b3a452bc623c39b025e06e248276a9b8bcd87eb7eee7de55e8d5c5bf822522",
+          "size_bytes": 4444174,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360382+00:00"
+        },
+        {
+          "filename": "dxgi.dll",
+          "sha256": "5e291e1b41a2a5ec0727a629fab7b43b8ebc9a269f58439ea8eed937925084f9",
+          "size_bytes": 2945038,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360423+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Display Tweaks",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "SSEDisplayTweaks.dll",
+          "sha256": "ae83f3a73359e45de98a39596ba9d96f416ae15f7cd6925dc347d484b9faf5bb",
+          "size_bytes": 577536,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360456+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Detection Meter - AE Support",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "MaxsuDetectionMeter.dll",
+          "sha256": "a4803da251251268c42c7986037635daf502fa697ebaeccd0adeb12a41550959",
+          "size_bytes": 1078272,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360501+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Detection Meter",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "MaxsuDetectionMeter.dll",
+          "sha256": "238e7c351c34958a8ed9aa38408c95fd0ba248a44c58c718b4dddb7faadaf93b",
+          "size_bytes": 2067456,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360558+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Crash Logger SSE AE VR - PDB support",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "CrashLogger.dll",
+          "sha256": "b556270889208a00ae20e0a68482178bafc56784fbfe67b9e9e52f74e056cf31",
+          "size_bytes": 2836480,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360617+00:00"
+        },
+        {
+          "filename": "msdia140.dll",
+          "sha256": "b52db46f4c4dc7705a802956edad33b60aeef5f184191dfd2e20c361608ffe86",
+          "size_bytes": 2051096,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360682+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Core Impact Framework (CIF)",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "CoreImpactFramework.dll",
+          "sha256": "47052dc9e4d82222725cdec6f9b45e5140b100ee1397882a0050e193aaee9c8a",
+          "size_bytes": 2651648,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360741+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Constructible Object Custom Keyword System - COCKS",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "CraftingCategories.dll",
+          "sha256": "6f4b55e335bf1a17b297d71ae8ed1be5b1aec141c8879f00824c83681c818ebb",
+          "size_bytes": 474112,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360817+00:00"
+        }
+      ]
+    },
+    {
+      "name": "CoMAP",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "MapMarkerFramework.dll",
+          "sha256": "7fbbb8178978ca48cd26c19e54ddc315f4319eee4c748347f5cbb452a1b6454b",
+          "size_bytes": 627200,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360942+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Camera Persistence Fixes",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "po3_CameraPersistenceFixes.dll",
+          "sha256": "d3b3503250bffce66c9a3d9c60782b4842721b386e3c50b6b93b6634b680c5f3",
+          "size_bytes": 863232,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.360997+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Camera Noise",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "CameraShake.dll",
+          "sha256": "69826d780af456ed2ebcfa4d330d25af20f9ba3992ad9663db2c89ee67358d2b",
+          "size_bytes": 660480,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.361059+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Better Third Person Selection - BTPS",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "BetterThirdPersonSelection.dll",
+          "sha256": "ce24158a1aac15e7984d4280cff5a71b9ff75290df8803d7c03c5042454d627c",
+          "size_bytes": 2731008,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.361115+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Animation Motion Fix",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "AnimationMotionFix.dll",
+          "sha256": "19273eefb67b5428fa0dffb7cbe05eba9f3d3692717582088640a60b2882358e",
+          "size_bytes": 1110016,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.361182+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Animation Limit Crash Fix SSE",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "SrtCrashFix64.dll",
+          "sha256": "c061133654df535d86852621bddcd9346d4831fadbc8a4d1ccae40079f3bb896",
+          "size_bytes": 19968,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.361241+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Animated Interactions",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "AnimatedInteractions.dll",
+          "sha256": "358c66703ec85d490a6f60e5fe413c782ca5463fcc30bd809a2e21264e6dfe67",
+          "size_bytes": 1005568,
+          "status": "verified",
+          "added": "2026-01-18T23:16:21.361298+00:00"
+        }
+      ]
+    }
+  ]
+}

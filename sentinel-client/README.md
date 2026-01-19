@@ -36,3 +36,13 @@ Place an `icon.ico` file in the `assets/` folder before building.
 - ⚡ Fast SHA-256 hashing with progress tracking
 - 🌐 API verification against Golden Set database
 - 🎨 Modern dark-themed UI with color-coded results
+- 📋 Click-to-copy hashes for easy sharing
+- 📤 Export unknown hashes for community submission
+
+## Contributing Hashes
+
+Found unknown plugins? Help grow the database!
+
+1. Click **Export Unknown** after scanning
+2. Fill in `mod_name` and `nexus_id` in the exported JSON
+3. Submit via GitHub issue or discussion

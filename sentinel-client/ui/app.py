@@ -2,7 +2,9 @@
 Skyrim Sentinel - Main Application Window
 """
 
+import json
 import threading
+from datetime import datetime
 from pathlib import Path
 from tkinter import filedialog
 
@@ -24,8 +26,10 @@ class ResultsTable(ctk.CTkScrollableFrame):
         super().__init__(master, **kwargs)
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=0)
-        self.grid_columnconfigure(2, weight=2)
+        self.grid_columnconfigure(2, weight=1)
+        self.grid_columnconfigure(3, weight=0)
         self.rows = []
+        self.master_app = master  # Reference to copy to clipboard
 
         # Header
         self._add_header()
@@ -44,6 +48,10 @@ class ResultsTable(ctk.CTkScrollableFrame):
             row=0, column=2, padx=10, pady=5, sticky="w"
         )
 
+        ctk.CTkLabel(self, text="Hash", font=("", 13, "bold"), anchor="w").grid(
+            row=0, column=3, padx=10, pady=5, sticky="w"
+        )
+
     def clear(self):
         """Clear all result rows."""
         for widgets in self.rows:
@@ -51,7 +59,17 @@ class ResultsTable(ctk.CTkScrollableFrame):
                 widget.destroy()
         self.rows = []
 
-    def add_result(self, filename: str, status: str, plugin_name: str | None):
+    def _copy_hash(self, full_hash: str):
+        """Copy hash to clipboard and show feedback."""
+        self.master_app.clipboard_clear()
+        self.master_app.clipboard_append(full_hash)
+        # Brief visual feedback via status
+        if hasattr(self.master_app, "_update_status"):
+            self.master_app._update_status(f"Copied: {full_hash[:16]}...")
+
+    def add_result(
+        self, filename: str, status: str, plugin_name: str | None, sha256: str | None = None
+    ):
         """Add a result row with color-coded status."""
         row = len(self.rows) + 1
 
@@ -82,7 +100,25 @@ class ResultsTable(ctk.CTkScrollableFrame):
         plugin_label = ctk.CTkLabel(self, text=plugin_text, anchor="w")
         plugin_label.grid(row=row, column=2, padx=10, pady=3, sticky="w")
 
-        self.rows.append((file_label, status_label, plugin_label))
+        # Hash (truncated, clickable to copy)
+        if sha256:
+            hash_btn = ctk.CTkButton(
+                self,
+                text=f"{sha256[:12]}...",
+                font=("", 10),
+                width=100,
+                height=24,
+                fg_color="transparent",
+                text_color="#888888",
+                hover_color="#333333",
+                command=lambda h=sha256: self._copy_hash(h),
+            )
+            hash_btn.grid(row=row, column=3, padx=10, pady=3, sticky="w")
+            self.rows.append((file_label, status_label, plugin_label, hash_btn))
+        else:
+            hash_label = ctk.CTkLabel(self, text="—", text_color="#555555")
+            hash_label.grid(row=row, column=3, padx=10, pady=3, sticky="w")
+            self.rows.append((file_label, status_label, plugin_label, hash_label))
 
 
 class SentinelApp(ctk.CTk):
@@ -92,8 +128,8 @@ class SentinelApp(ctk.CTk):
         super().__init__()
 
         self.title(f"🛡️ Skyrim Sentinel v{__version__}")
-        self.geometry("800x600")
-        self.minsize(600, 400)
+        self.geometry("900x600")
+        self.minsize(700, 400)
 
         # API client
         self.api = SentinelClient()
@@ -101,6 +137,7 @@ class SentinelApp(ctk.CTk):
         # State
         self.selected_path: Path | None = None
         self.is_scanning = False
+        self.last_scan_results: list[dict] = []  # Store for export
 
         self._create_widgets()
 
@@ -161,10 +198,24 @@ class SentinelApp(ctk.CTk):
         self.results_table.grid(row=5, column=0, padx=20, pady=(10, 10), sticky="nsew")
         self.grid_rowconfigure(5, weight=1)
 
-        # Footer with version
+        # Footer with version and export button
         footer_frame = ctk.CTkFrame(self, fg_color="transparent")
         footer_frame.grid(row=6, column=0, padx=20, pady=(0, 10), sticky="ew")
-        footer_frame.grid_columnconfigure(0, weight=1)
+        footer_frame.grid_columnconfigure(1, weight=1)
+
+        self.export_btn = ctk.CTkButton(
+            footer_frame,
+            text="Export Unknown",
+            command=self._export_unknown,
+            state="disabled",
+            width=120,
+            height=28,
+            fg_color="#eab308",
+            hover_color="#ca8a04",
+            text_color="#000000",
+            font=("", 11),
+        )
+        self.export_btn.grid(row=0, column=0, sticky="w")
 
         version_label = ctk.CTkLabel(
             footer_frame,
@@ -172,7 +223,7 @@ class SentinelApp(ctk.CTk):
             text_color="#555555",
             font=("", 11),
         )
-        version_label.grid(row=0, column=0, sticky="e")
+        version_label.grid(row=0, column=1, sticky="e")
 
     def _select_folder(self):
         """Open folder picker dialog."""
@@ -240,7 +291,8 @@ class SentinelApp(ctk.CTk):
                 # Build hash -> result mapping
                 hash_to_result = {r.hash: r for r in api_response.results}
 
-                # Display results
+                # Store results for export and display
+                combined_results = []
                 for local_result in valid_results:
                     h = local_result["sha256"]
                     api_result = hash_to_result.get(h)
@@ -248,12 +300,32 @@ class SentinelApp(ctk.CTk):
                     status = api_result.status if api_result else "unknown"
                     plugin = api_result.plugin.name if api_result and api_result.plugin else None
 
+                    combined_results.append(
+                        {
+                            "filename": local_result["filename"],
+                            "path": local_result.get("path", ""),
+                            "sha256": h,
+                            "size_bytes": local_result.get("size_bytes", 0),
+                            "status": status,
+                            "plugin": plugin,
+                        }
+                    )
+
                     self.after(
                         0,
                         lambda f=local_result["filename"],
                         s=status,
-                        p=plugin: self.results_table.add_result(f, s, p),
+                        p=plugin,
+                        h=h: self.results_table.add_result(f, s, p, h),
                     )
+
+                # Store for export
+                self.last_scan_results = combined_results
+
+                # Enable export if there are unknowns
+                unknown_count = sum(1 for r in combined_results if r["status"] == "unknown")
+                if unknown_count > 0:
+                    self.after(0, lambda: self.export_btn.configure(state="normal"))
 
                 # Add errors
                 for r in scan_results:
@@ -279,12 +351,26 @@ class SentinelApp(ctk.CTk):
                 self._update_status(f"Connection Error: {e}")
                 # Still show local results as unknown
                 for r in valid_results:
+                    h = r["sha256"]
                     self.after(
                         0,
-                        lambda f=r["filename"]: self.results_table.add_result(
-                            f, "unknown", "API unavailable"
+                        lambda f=r["filename"], h=h: self.results_table.add_result(
+                            f, "unknown", "API unavailable", h
                         ),
                     )
+                # Store for offline export
+                self.last_scan_results = [
+                    {
+                        "filename": r["filename"],
+                        "path": r.get("path", ""),
+                        "sha256": r["sha256"],
+                        "size_bytes": r.get("size_bytes", 0),
+                        "status": "unknown",
+                        "plugin": None,
+                    }
+                    for r in valid_results
+                ]
+                self.after(0, lambda: self.export_btn.configure(state="normal"))
 
         except Exception as e:
             self._update_status(f"Error: {e}")
@@ -300,6 +386,50 @@ class SentinelApp(ctk.CTk):
         self.after(0, lambda: self.progress.set(1.0))
         self.after(0, lambda: self.scan_btn.configure(state="normal"))
         self.is_scanning = False
+
+    def _export_unknown(self):
+        """Export unknown hashes to JSON for submission."""
+        unknown = [r for r in self.last_scan_results if r["status"] == "unknown"]
+
+        if not unknown:
+            self._update_status("No unknown hashes to export")
+            return
+
+        # Ask user where to save
+        filepath = filedialog.asksaveasfilename(
+            title="Export Unknown Hashes",
+            defaultextension=".json",
+            filetypes=[("JSON files", "*.json"), ("All files", "*.*")],
+            initialfile=f"sentinel_unknown_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
+        )
+
+        if not filepath:
+            return
+
+        # Format for submission
+        export_data = {
+            "sentinel_version": __version__,
+            "exported_at": datetime.now().isoformat(),
+            "instructions": "Submit this file to the Skyrim Sentinel project to help expand the database.",
+            "unknown_plugins": [
+                {
+                    "filename": r["filename"],
+                    "sha256": r["sha256"],
+                    "size_bytes": r["size_bytes"],
+                    "source_path": r["path"],
+                    "mod_name": "",  # User can fill this in
+                    "nexus_id": None,  # User can fill this in
+                }
+                for r in unknown
+            ],
+        }
+
+        try:
+            with open(filepath, "w", encoding="utf-8") as f:
+                json.dump(export_data, f, indent=2)
+            self._update_status(f"Exported {len(unknown)} unknown hashes")
+        except OSError as e:
+            self._update_status(f"Export failed: {e}")
 
 
 def main():

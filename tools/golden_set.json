@@ -1,6 +1,6 @@
 {
   "$schema": "./golden_set_schema.json",
-  "version": "2026.01.18",
+  "version": "2026.01.19",
   "generated": "2026-01-11T00:00:00Z",
   "description": "Curated manifest of verified SKSE plugins for Skyrim Sentinel",
   "plugins": [
@@ -1843,6 +1843,65 @@
           "size_bytes": 1005568,
           "status": "verified",
           "added": "2026-01-18T23:16:21.361298+00:00"
+        }
+      ]
+    },
+    {
+      "name": "SexLabFrameworkAE_v166b",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "PapyrusUtil.dll",
+          "sha256": "2fb155b8508e085616c5f72cb8fd2368275557dc56988300b92e540930d1f444",
+          "size_bytes": 1436160,
+          "status": "verified",
+          "added": "2026-01-19T03:37:48.717312+00:00"
+        },
+        {
+          "filename": "SexLabUtil.dll",
+          "sha256": "7d5c27b824d6a37369212c6f50147efe2d8aa073531c4637a524607092e0baa5",
+          "size_bytes": 804864,
+          "status": "verified",
+          "added": "2026-01-19T03:37:48.717419+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Schlongs_of_Skyrim_SE - v1.1.4",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "SchlongsOfSkyrim.dll",
+          "sha256": "be7c207f3121332a4efc5175192a5537907d4cc4dd814726cf51456e7f944691",
+          "size_bytes": 495616,
+          "status": "verified",
+          "added": "2026-01-19T03:37:48.717475+00:00"
+        }
+      ]
+    },
+    {
+      "name": "OStim Standalone-98163-7-3-5d-1762425075",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "OStim.dll",
+          "sha256": "9459df85ae5aa048c852469b4f12d6b29a67a9c44663fb713d8672a031be07dd",
+          "size_bytes": 7657472,
+          "status": "verified",
+          "added": "2026-01-19T03:37:48.717523+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Devious Devices [SE][AE][VR] 5.2",
+      "nexusId": 0,
+      "files": [
+        {
+          "filename": "DeviousDevices.dll",
+          "sha256": "50e2544c960b340df4fbbb1fc073299c729e0966b051e9f920e26e877cdf4667",
+          "size_bytes": 155648,
+          "status": "verified",
+          "added": "2026-01-19T03:37:48.717574+00:00"
         }
       ]
     }

@@ -105,7 +105,7 @@
   },
   {
     "key": "sha256:2fb155b8508e085616c5f72cb8fd2368275557dc56988300b92e540930d1f444",
-    "value": "{\"name\":\"PapyrusUtil SE\",\"nexusId\":13048,\"filename\":\"PapyrusUtil.dll\",\"status\":\"verified\",\"author\":\"exiledviper\"}"
+    "value": "{\"name\":\"SexLabFrameworkAE_v166b\",\"nexusId\":0,\"filename\":\"PapyrusUtil.dll\",\"status\":\"verified\"}"
   },
   {
     "key": "sha256:8e00fa14b51980fb752c22f1c65d0aad3b3ba3f333e8f6f1a87d040cd85d53ae",
@@ -406,5 +406,21 @@
   {
     "key": "sha256:358c66703ec85d490a6f60e5fe413c782ca5463fcc30bd809a2e21264e6dfe67",
     "value": "{\"name\":\"Animated Interactions\",\"nexusId\":0,\"filename\":\"AnimatedInteractions.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:7d5c27b824d6a37369212c6f50147efe2d8aa073531c4637a524607092e0baa5",
+    "value": "{\"name\":\"SexLabFrameworkAE_v166b\",\"nexusId\":0,\"filename\":\"SexLabUtil.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:be7c207f3121332a4efc5175192a5537907d4cc4dd814726cf51456e7f944691",
+    "value": "{\"name\":\"Schlongs_of_Skyrim_SE - v1.1.4\",\"nexusId\":0,\"filename\":\"SchlongsOfSkyrim.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:9459df85ae5aa048c852469b4f12d6b29a67a9c44663fb713d8672a031be07dd",
+    "value": "{\"name\":\"OStim Standalone-98163-7-3-5d-1762425075\",\"nexusId\":0,\"filename\":\"OStim.dll\",\"status\":\"verified\"}"
+  },
+  {
+    "key": "sha256:50e2544c960b340df4fbbb1fc073299c729e0966b051e9f920e26e877cdf4667",
+    "value": "{\"name\":\"Devious Devices [SE][AE][VR] 5.2\",\"nexusId\":0,\"filename\":\"DeviousDevices.dll\",\"status\":\"verified\"}"
   }
 ]

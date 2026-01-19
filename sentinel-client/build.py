@@ -1,15 +1,17 @@
 """
-Skyrim Sentinel - Nuitka Build Script
+Skyrim Sentinel - PyInstaller Build Script
 
-Creates a standalone Windows executable using Nuitka.
+Creates a standalone Windows executable using PyInstaller.
 
 Usage:
-    uv run build.py
+    uv sync --extra build
+    uv run python build.py
 
 Output:
     dist/SkyrimSentinel.exe
 """
 
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -21,60 +23,56 @@ OUTPUT_DIR = Path("dist")
 MAIN_SCRIPT = "main.py"
 EXE_NAME = "SkyrimSentinel"
 
-# Nuitka options
-NUITKA_OPTIONS = [
-    # Output settings
-    f"--output-dir={OUTPUT_DIR}",
-    f"--output-filename={EXE_NAME}.exe",
-    # Standalone executable (includes Python runtime)
-    "--standalone",
-    "--onefile",
-    # Windows-specific
-    "--windows-console-mode=disable",  # No console window
-    "--windows-icon-from-ico=assets/icon.ico" if Path("assets/icon.ico").exists() else "",
-    # Include CustomTkinter assets
-    "--include-package=customtkinter",
-    "--include-data-dir=customtkinter=customtkinter",
-    # Include our packages
-    "--include-package=ui",
-    # Include SQLite for local cache
-    "--include-module=sqlite3",
-    # Optimization
-    "--assume-yes-for-downloads",  # Auto-download dependencies
-    "--remove-output",  # Clean previous build
-    # Metadata
-    f"--product-name={APP_NAME}",
-    f"--product-version={__version__}",
-    f"--file-version={__version__}",
-    "--company-name=Skyrim Sentinel",
-    "--file-description=SKSE Plugin Integrity Checker",
-    # Trade-off: faster build vs smaller size
-    # Uncomment for smaller exe (slower build):
-    # "--lto=yes",
-]
+
+def get_customtkinter_path() -> Path | None:
+    """Find the customtkinter package installation path."""
+    try:
+        import customtkinter
+
+        return Path(customtkinter.__file__).parent
+    except ImportError:
+        return None
 
 
 def build():
-    """Run Nuitka build."""
+    """Run PyInstaller build."""
     print(f"Building {APP_NAME} v{__version__}...")
     print("=" * 50)
 
     # Ensure output directory exists
     OUTPUT_DIR.mkdir(exist_ok=True)
 
-    # Filter empty options
-    options = [opt for opt in NUITKA_OPTIONS if opt]
+    # Find customtkinter for data inclusion
+    ctk_path = get_customtkinter_path()
+    if not ctk_path:
+        print("❌ customtkinter not found. Run 'uv sync' first.")
+        return 1
 
-    # Build command
+    # Check for icon
+    icon_path = Path("assets/icon.ico")
+
+    # PyInstaller command
     cmd = [
         sys.executable,
         "-m",
-        "nuitka",
-        *options,
+        "PyInstaller",
+        "--onefile",
+        "--windowed",
+        "--clean",
+        f"--name={EXE_NAME}",
+        f"--distpath={OUTPUT_DIR}",
+        # Include customtkinter data files (themes, etc.)
+        f"--add-data={ctk_path};customtkinter",
+        # Hidden imports that PyInstaller might miss
+        "--hidden-import=PIL._tkinter_finder",
         MAIN_SCRIPT,
     ]
 
-    print(f"Running: {' '.join(cmd[:5])}...")
+    # Add icon if exists
+    if icon_path.exists():
+        cmd.insert(-1, f"--icon={icon_path}")
+
+    print("Running: PyInstaller...")
     print()
 
     try:
@@ -83,13 +81,23 @@ def build():
         print("=" * 50)
         print("✅ Build successful!")
         print(f"   Output: {OUTPUT_DIR / EXE_NAME}.exe")
+
+        # Clean up build artifacts
+        build_dir = Path("build")
+        spec_file = Path(f"{EXE_NAME}.spec")
+        if build_dir.exists():
+            print("   Cleaning build artifacts...")
+            shutil.rmtree(build_dir)
+        if spec_file.exists():
+            spec_file.unlink()
+
         return 0
     except subprocess.CalledProcessError as e:
         print(f"❌ Build failed with exit code {e.returncode}")
         return e.returncode
     except FileNotFoundError:
-        print("❌ Nuitka not found. Install with:")
-        print("   uv add nuitka")
+        print("❌ PyInstaller not found. Install with:")
+        print("   uv sync --extra build")
         return 1
 
 

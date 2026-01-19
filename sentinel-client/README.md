@@ -32,12 +32,12 @@ Place an `icon.ico` file in the `assets/` folder before building.
 
 ## Features
 
-- 📁 Folder picker for MO2/mods directory
-- ⚡ Fast SHA-256 hashing with progress tracking
-- 🌐 API verification against Golden Set database
-- 🎨 Modern dark-themed UI with color-coded results
-- 📋 Click-to-copy hashes for easy sharing
-- 📤 Export unknown hashes for community submission
+- Folder picker for MO2/mods directory
+- Fast SHA-256 hashing with progress tracking
+- API verification against Golden Set database
+- Modern dark-themed UI with color-coded results
+- Click-to-copy hashes for easy sharing
+- Export unknown hashes for community submission
 
 ## Contributing Hashes
 

@@ -10,6 +10,7 @@ import customtkinter as ctk
 
 from api_client import SentinelAPIError, SentinelClient
 from scanner import scan_directory
+from version import __version__
 
 # Theme configuration
 ctk.set_appearance_mode("dark")
@@ -90,7 +91,7 @@ class SentinelApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("🛡️ Skyrim Sentinel")
+        self.title(f"🛡️ Skyrim Sentinel v{__version__}")
         self.geometry("800x600")
         self.minsize(600, 400)
 
@@ -157,8 +158,21 @@ class SentinelApp(ctk.CTk):
 
         # Results table
         self.results_table = ResultsTable(self)
-        self.results_table.grid(row=5, column=0, padx=20, pady=(10, 20), sticky="nsew")
+        self.results_table.grid(row=5, column=0, padx=20, pady=(10, 10), sticky="nsew")
         self.grid_rowconfigure(5, weight=1)
+
+        # Footer with version
+        footer_frame = ctk.CTkFrame(self, fg_color="transparent")
+        footer_frame.grid(row=6, column=0, padx=20, pady=(0, 10), sticky="ew")
+        footer_frame.grid_columnconfigure(0, weight=1)
+
+        version_label = ctk.CTkLabel(
+            footer_frame,
+            text=f"v{__version__} • Beta",
+            text_color="#555555",
+            font=("", 11),
+        )
+        version_label.grid(row=0, column=0, sticky="e")
 
     def _select_folder(self):
         """Open folder picker dialog."""

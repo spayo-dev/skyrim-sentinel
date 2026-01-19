@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = ["customtkinter>=5.2.0", "requests>=2.32.0"]
 
+[project.optional-dependencies]
+build = ["nuitka>=2.0", "ordered-set>=4.1"]
+
 [project.scripts]
 sentinel = "main:main"
 

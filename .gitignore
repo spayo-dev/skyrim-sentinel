@@ -26,6 +26,7 @@ dist/
 
 # Logs and Debug
 *.log
+nuitka-crash-report.xml
 
 # --- Node.js / Cloudflare (The Worker) ---
 node_modules/
